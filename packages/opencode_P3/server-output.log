@@ -1,0 +1,31 @@
+105 |         : undefined,
+              ^
+error: Expected ")" but found ":"
+    at C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\main\packages\opencode_P3\src\features\mcp\services\oauth-provider.ts:105:9
+
+105 |         : undefined,
+                ^
+error: Expected ")" but found "undefined"
+    at C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\main\packages\opencode_P3\src\features\mcp\services\oauth-provider.ts:105:11
+
+105 |         : undefined,
+                         ^
+error: Expected " =" but found ","
+    at C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\main\packages\opencode_P3\src\features\mcp\services\oauth-provider.ts:105:20
+
+106 |       scope: entry.tokens.scope,
+                 ^
+error: Expected "}" but found ":"
+    at C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\main\packages\opencode_P3\src\features\mcp\services\oauth-provider.ts:106:12
+
+106 |       scope: entry.tokens.scope,
+                   ^
+error: Expected ";" but found "entry"
+    at C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\main\packages\opencode_P3\src\features\mcp\services\oauth-provider.ts:106:14
+
+106 |       scope: entry.tokens.scope,
+                        ^
+error: Unexpected .
+    at C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\main\packages\opencode_P3\src\features\mcp\services\oauth-provider.ts:106:19
+
+Bun v1.3.6 (Windows x64)

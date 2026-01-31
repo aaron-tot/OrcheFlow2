@@ -1,0 +1,5 @@
+
+> dev:server
+> bun run --cwd packages/opencode --conditions=browser src/index.ts serve
+
+opencode server listening on http://127.0.0.1:4096

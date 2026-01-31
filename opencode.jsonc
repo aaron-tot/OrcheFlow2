@@ -1,0 +1,297 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  
+  // Default model for OpenCode
+  "model": "ollama-local/llama3.2:3b",
+  
+  // Custom providers and their models
+  "provider": {
+    "ollama-local": {
+      "id": "ollama-local",
+      "name": "Ollama Local",
+      "env": [],
+      "npm": "@ai-sdk/openai-compatible",
+      "api": "http://localhost:11434/v1",
+      "options": {
+        // Your Ollama server URL (change if using different port/IP)
+        "baseURL": "http://localhost:11434/v1",
+        // Not required for local Ollama (dummy value required by SDK)
+        "apiKey": "ollama"
+      },
+      
+      // Your installed Ollama models
+      "models": {
+        "qwen2:0.5b": {
+          "id": "qwen2:0.5b",
+          "name": "Qwen 2 0.5B",
+          "family": "qwen",
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": 0
+          },
+          "limit": {
+            "context": 32768,
+            "input": 24000,
+            "output": 8192
+          },
+          "attachment": true,
+          "reasoning": false,
+          "temperature": true,
+          "tool_call": true
+        },
+        "mistral:7b-instruct-q4_K_M": {
+          "id": "mistral:7b-instruct-q4_K_M",
+          "name": "Mistral 7B Instruct Q4 K M",
+          "family": "mistral",
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": 0
+          },
+          "limit": {
+            "context": 32768,
+            "input": 24000,
+            "output": 8192
+          },
+          "attachment": true,
+          "reasoning": false,
+          "temperature": true,
+          "tool_call": true
+        },
+        "mistral:latest": {
+          "id": "mistral:latest",
+          "name": "Mistral Latest",
+          "family": "mistral",
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": 0
+          },
+          "limit": {
+            "context": 32768,
+            "input": 24000,
+            "output": 8192
+          },
+          "attachment": true,
+          "reasoning": false,
+          "temperature": true,
+          "tool_call": true
+        },
+        "llama3:8b-instruct-q6_K": {
+          "id": "llama3:8b-instruct-q6_K",
+          "name": "Llama 3 8B Instruct Q6 K",
+          "family": "llama",
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": 0
+          },
+          "limit": {
+            "context": 128000,
+            "input": 100000,
+            "output": 8192
+          },
+          "attachment": true,
+          "reasoning": false,
+          "temperature": true,
+          "tool_call": true
+        },
+        "gemma2:9b-instruct-q6_K": {
+          "id": "gemma2:9b-instruct-q6_K",
+          "name": "Gemma 2 9B Instruct Q6 K",
+          "family": "gemma",
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": 0
+          },
+          "limit": {
+            "context": 8192,
+            "input": 6000,
+            "output": 8192
+          },
+          "attachment": true,
+          "reasoning": false,
+          "temperature": true,
+          "tool_call": true
+        },
+        "qwen2.5:7b-instruct-q5_K_M": {
+          "id": "qwen2.5:7b-instruct-q5_K_M",
+          "name": "Qwen 2.5 7B Instruct Q5 K M",
+          "family": "qwen",
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": 0
+          },
+          "limit": {
+            "context": 32768,
+            "input": 24000,
+            "output": 8192
+          },
+          "attachment": true,
+          "reasoning": false,
+          "temperature": true,
+          "tool_call": true
+        },
+        "qwen2.5:14b-instruct-q6_K": {
+          "id": "qwen2.5:14b-instruct-q6_K",
+          "name": "Qwen 2.5 14B Instruct Q6 K",
+          "family": "qwen",
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": 0
+          },
+          "limit": {
+            "context": 32768,
+            "input": 24000,
+            "output": 8192
+          },
+          "attachment": true,
+          "reasoning": false,
+          "temperature": true,
+          "tool_call": true
+        },
+        "qwen2.5:32b-instruct-q6_K": {
+          "id": "qwen2.5:32b-instruct-q6_K",
+          "name": "Qwen 2.5 32B Instruct Q6 K",
+          "family": "qwen",
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": 0
+          },
+          "limit": {
+            "context": 32768,
+            "input": 24000,
+            "output": 8192
+          },
+          "attachment": true,
+          "reasoning": false,
+          "temperature": true,
+          "tool_call": true
+        },
+        "llama3.2:3b": {
+          "id": "llama3.2:3b",
+          "name": "Llama 3.2 3B",
+          "family": "llama",
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": 0
+          },
+          "limit": {
+            "context": 128000,
+            "input": 100000,
+            "output": 8192
+          },
+          "attachment": true,
+          "reasoning": false,
+          "temperature": true,
+          "tool_call": true
+        },
+        "gpt-oss:20b-custom": {
+          "id": "gpt-oss:20b-custom",
+          "name": "GPT OSS 20B Custom",
+          "family": "gpt",
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": 0
+          },
+          "limit": {
+            "context": 8192,
+            "input": 6000,
+            "output": 8192
+          },
+          "attachment": true,
+          "reasoning": false,
+          "temperature": true,
+          "tool_call": true
+        },
+        "dolphin3:latest-custom": {
+          "id": "dolphin3:latest-custom",
+          "name": "Dolphin 3 Latest Custom",
+          "family": "dolphin",
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": 0
+          },
+          "limit": {
+            "context": 32768,
+            "input": 24000,
+            "output": 8192
+          },
+          "attachment": true,
+          "reasoning": false,
+          "temperature": true,
+          "tool_call": true
+        },
+        "gpt-oss:20b": {
+          "id": "gpt-oss:20b",
+          "name": "GPT OSS 20B",
+          "family": "gpt",
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": 0
+          },
+          "limit": {
+            "context": 8192,
+            "input": 6000,
+            "output": 8192
+          },
+          "attachment": true,
+          "reasoning": false,
+          "temperature": true,
+          "tool_call": true
+        },
+        "dolphin3:latest": {
+          "id": "dolphin3:latest",
+          "name": "Dolphin 3 Latest",
+          "family": "dolphin",
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cache_read": 0,
+            "cache_write": 0
+          },
+          "limit": {
+            "context": 32768,
+            "input": 24000,
+            "output": 8192
+          },
+          "attachment": true,
+          "reasoning": false,
+          "temperature": true,
+          "tool_call": true
+        }
+      }
+    }
+  },
+  
+  // Server configuration
+  "server": {
+    "port": 4001,
+    "hostname": "127.0.0.1"
+  },
+  
+  // Other OpenCode settings
+  "autoupdate": "notify",
+  "share": "manual"
+}
