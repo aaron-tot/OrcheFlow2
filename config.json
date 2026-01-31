@@ -1,6 +1,126 @@
 {
-  "ports": {
-    "frontend": 4000,
-    "backend": 4001
-  }
+    "ports": {
+        "frontend": 4000,
+        "backend": 4001
+    },
+    "storageMacOS": {
+        "main": "~/desktop/orcheFlow_storage",
+        "buckets": {
+            "projects": {
+                "main": "projects",
+                "worktrees": "worktrees"
+            },
+            "data": {
+                "main": "data",
+                "bin": "data/bin",
+                "log": "data/log",
+                "worktree": "data/worktree/<projectID>",
+                "snapshot": "data/snapshot/<projectID>",
+                "plans": "data/plans",
+                "toolOutput": "data/tool-output"
+            },
+            "cache": {
+                "main": "cache",
+                "version": "cache/version",
+                "models": "cache/models.json",
+                "package": "cache/package.json",
+                "nodeModules": "cache/node_modules"
+            },
+            "config": {
+                "main": "config",
+                "stores": "config/*.dat",
+                "mcpAuth": "config/mcp-auth.json"
+            },
+            "state": {
+                "main": "state",
+                "storage": "state/storage",
+                "storageProject": "state/storage/project",
+                "storageSession": "state/storage/session",
+                "storageSessionInfo": "state/storage/session/info",
+                "storageSessionMessage": "state/storage/session/message/<sessionID>",
+                "storageSessionPart": "state/storage/session/part/<sessionID>/<messageID>",
+                "storagePermission": "state/storage/permission"
+            }
+        }
+    },
+    "storageWindows": {
+        "main": "%USERPROFILE%\\Desktop\\orcheFlow_storage",
+        "buckets": {
+            "projects": {
+                "main": "projects",
+                "worktrees": "worktrees"
+            },
+            "data": {
+                "main": "data",
+                "bin": "data\\bin",
+                "log": "data\\log",
+                "worktree": "data\\worktree\\<projectID>",
+                "snapshot": "data\\snapshot\\<projectID>",
+                "plans": "data\\plans",
+                "toolOutput": "data\\tool-output"
+            },
+            "cache": {
+                "main": "cache",
+                "version": "cache\\version",
+                "models": "cache\\models.json",
+                "package": "cache\\package.json",
+                "nodeModules": "cache\\node_modules"
+            },
+            "config": {
+                "main": "config",
+                "stores": "config\\*.dat",
+                "mcpAuth": "config\\mcp-auth.json"
+            },
+            "state": {
+                "main": "state",
+                "storage": "state\\storage",
+                "storageProject": "state\\storage\\project",
+                "storageSession": "state\\storage\\session",
+                "storageSessionInfo": "state\\storage\\session\\info",
+                "storageSessionMessage": "state\\storage\\session\\message\\<sessionID>",
+                "storageSessionPart": "state\\storage\\session\\part\\<sessionID>\\<messageID>",
+                "storagePermission": "state\\storage\\permission"
+            }
+        }
+    },
+    "storageLinux": {
+        "main": "~/desktop/orcheFlow_storage",
+        "buckets": {
+            "projects": {
+                "main": "projects",
+                "worktrees": "worktrees"
+            },
+            "data": {
+                "main": "data",
+                "bin": "data/bin",
+                "log": "data/log",
+                "worktree": "data/worktree/<projectID>",
+                "snapshot": "data/snapshot/<projectID>",
+                "plans": "data/plans",
+                "toolOutput": "data/tool-output"
+            },
+            "cache": {
+                "main": "cache",
+                "version": "cache/version",
+                "models": "cache/models.json",
+                "package": "cache/package.json",
+                "nodeModules": "cache/node_modules"
+            },
+            "config": {
+                "main": "config",
+                "stores": "config/*.dat",
+                "mcpAuth": "config/mcp-auth.json"
+            },
+            "state": {
+                "main": "state",
+                "storage": "state/storage",
+                "storageProject": "state/storage/project",
+                "storageSession": "state/storage/session",
+                "storageSessionInfo": "state/storage/session/info",
+                "storageSessionMessage": "state/storage/session/message/<sessionID>",
+                "storageSessionPart": "state/storage/session/part/<sessionID>/<messageID>",
+                "storagePermission": "state/storage/permission"
+            }
+        }
+    }
 }

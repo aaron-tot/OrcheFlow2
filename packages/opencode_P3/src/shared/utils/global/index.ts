@@ -1,19 +1,38 @@
 import fs from "fs/promises"
-import { xdgData, xdgCache, xdgConfig, xdgState } from "xdg-basedir"
 import path from "path"
 import os from "os"
 
+const configPath = path.join(process.cwd(), "config.json")
+const configFile = await Bun.file(configPath).json().catch(() => ({
+  storageMacOS: { main: "~/desktop/orcheFlow_storage", buckets: {} },
+  storageWindows: { main: "%USERPROFILE%\\Desktop\\orcheFlow_storage", buckets: {} },
+  storageLinux: { main: "~/desktop/orcheFlow_storage", buckets: {} }
+}))
+
+const platform = process.platform === "win32" ? "storageWindows" : process.platform === "darwin" ? "storageMacOS" : "storageLinux"
+const storageConfig = configFile[platform]
+
+function resolvePath(pathStr: string): string {
+  return pathStr
+    .replace(/^~/, os.homedir())
+    .replace(/%USERPROFILE%/g, os.homedir())
+    .replace(/\\/g, path.sep)
+    .replace(/\//g, path.sep)
+}
+
+const mainPath = resolvePath(storageConfig.main)
+const buckets = storageConfig.buckets
+
+const data = path.join(mainPath, buckets.data?.main || "data")
+const cache = path.join(mainPath, buckets.cache?.main || "cache")
+const config = path.join(mainPath, buckets.config?.main || "config")
+const state = path.join(mainPath, buckets.state?.main || "state")
+
 const suffix = process.env.OPENCODE_APP_SUFFIX || "_prod"
-const app = `opencode${suffix}`
-
-const data = path.join(xdgData!, app)
-const cache = path.join(xdgCache!, app)
-const config = path.join(xdgConfig!, app)
-const state = path.join(xdgState!, app)
-
 const mode = suffix === "_dev" ? "DEV" : "PRODUCTION"
+
 console.log(`[OpenCode] Mode: ${mode}`)
-console.log(`[OpenCode] App name: ${app}`)
+console.log(`[OpenCode] Platform: ${process.platform}`)
 console.log(`[OpenCode] Data directory: ${data}`)
 console.log(`[OpenCode] Cache directory: ${cache}`)
 console.log(`[OpenCode] Config directory: ${config}`)
@@ -40,6 +59,11 @@ await Promise.all([
   fs.mkdir(Global.Path.state, { recursive: true }),
   fs.mkdir(Global.Path.log, { recursive: true }),
   fs.mkdir(Global.Path.bin, { recursive: true }),
+  fs.mkdir(path.join(Global.Path.data, "worktree"), { recursive: true }),
+  fs.mkdir(path.join(Global.Path.data, "snapshot"), { recursive: true }),
+  fs.mkdir(path.join(Global.Path.data, "tool-output"), { recursive: true }),
+  fs.mkdir(path.join(Global.Path.data, "plans"), { recursive: true }),
+  fs.mkdir(path.join(Global.Path.state, "storage"), { recursive: true }),
 ])
 
 const CACHE_VERSION = "18"
