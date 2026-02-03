@@ -1,37 +1,52 @@
-export function getFilename(path: string | undefined) {
-  if (!path) return ""
-  const trimmed = path.replace(/[\/\\]+$/, "")
-  const parts = trimmed.split(/[\/\\]/)
-  return parts[parts.length - 1] ?? ""
+/**
+ * Path Utilities
+ * Handles file path operations
+ */
+
+export function getFilename(path: string): string {
+  if (!path) return ''
+  const normalized = path.replace(/\\/g, '/')
+  const lastSlash = normalized.lastIndexOf('/')
+  return lastSlash === -1 ? path : normalized.substring(lastSlash + 1)
 }
 
-export function getDirectory(path: string | undefined) {
-  if (!path) return ""
-  const trimmed = path.replace(/[\/\\]+$/, "")
-  const parts = trimmed.split(/[\/\\]/)
-  return parts.slice(0, parts.length - 1).join("/") + "/"
+export function getDirectory(path: string): string {
+  if (!path) return ''
+  const normalized = path.replace(/\\/g, '/')
+  const lastSlash = normalized.lastIndexOf('/')
+  return lastSlash === -1 ? '' : normalized.substring(0, lastSlash)
 }
 
-export function getFileExtension(path: string | undefined) {
-  if (!path) return ""
-  const parts = path.split(".")
-  return parts[parts.length - 1]
-}
-
-export function getFilenameTruncated(path: string | undefined, maxLength: number = 20) {
+export function getFilenameTruncated(path: string, maxLength: number = 20): string {
   const filename = getFilename(path)
   if (filename.length <= maxLength) return filename
-  const lastDot = filename.lastIndexOf(".")
-  const ext = lastDot <= 0 ? "" : filename.slice(lastDot)
-  const available = maxLength - ext.length - 1 // -1 for ellipsis
-  if (available <= 0) return filename.slice(0, maxLength - 1) + "…"
-  return filename.slice(0, available) + "…" + ext
+  
+  const dotIndex = filename.lastIndexOf('.')
+  if (dotIndex === -1) {
+    return filename.substring(0, maxLength - 3) + '...'
+  }
+  
+  const extension = filename.substring(dotIndex)
+  const name = filename.substring(0, dotIndex)
+  const availableLength = maxLength - extension.length - 3
+  
+  if (availableLength <= 0) {
+    return filename.substring(0, maxLength - 3) + '...'
+  }
+  
+  return name.substring(0, availableLength) + '...' + extension
 }
 
-export function truncateMiddle(text: string, maxLength: number = 20) {
-  if (text.length <= maxLength) return text
-  const available = maxLength - 1 // -1 for ellipsis
-  const start = Math.ceil(available / 2)
-  const end = Math.floor(available / 2)
-  return text.slice(0, start) + "…" + text.slice(-end)
+export function joinPath(...parts: string[]): string {
+  return parts
+    .map(part => part.replace(/\\/g, '/'))
+    .map(part => part.replace(/^\/+|\/+$/g, ''))
+    .filter(Boolean)
+    .join('/')
+}
+
+export function getExtension(path: string): string {
+  const filename = getFilename(path)
+  const dotIndex = filename.lastIndexOf('.')
+  return dotIndex === -1 ? '' : filename.substring(dotIndex + 1)
 }

@@ -1,0 +1,7 @@
+1 | })
+2 | {
+    ^
+SyntaxError: Export named 'SessionRevert' not found in module 'C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\packages\backend\src\features\agents\infrastructure\index.ts'.
+      at loadAndEvaluateModule (2:1)
+
+Bun v1.3.6 (Windows x64)

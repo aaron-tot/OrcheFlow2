@@ -1,0 +1,71 @@
+src/app/cli.ts(156,3): error TS1161: Unterminated regular expression literal.
+src/app/cli.ts(157,10): error TS1005: ';' expected.
+src/app/cli.ts(157,24): error TS1005: ';' expected.
+src/app/cli.ts(157,47): error TS1005: ';' expected.
+src/app/cli.ts(157,51): error TS1434: Unexpected keyword or identifier.
+src/app/cli.ts(157,59): error TS1434: Unexpected keyword or identifier.
+src/app/cli.ts(157,91): error TS1002: Unterminated string literal.
+src/app/cli.ts(158,9): error TS1005: ';' expected.
+src/app/cli.ts(159,3): error TS1003: Identifier expected.
+src/app/cli.ts(159,16): error TS1005: ';' expected.
+src/app/cli.ts(159,21): error TS1434: Unexpected keyword or identifier.
+src/app/cli.ts(159,24): error TS1435: Unknown keyword or identifier. Did you mean 'void'?
+src/app/cli.ts(159,30): error TS1434: Unexpected keyword or identifier.
+src/app/cli.ts(159,34): error TS1434: Unexpected keyword or identifier.
+src/app/experimentalRoutes.ts(83,13): error TS1136: Property assignment expected.
+src/app/experimentalRoutes.ts(83,22): error TS1005: ')' expected.
+src/app/experimentalRoutes.ts(83,27): error TS1005: ',' expected.
+src/app/experimentalRoutes.ts(83,31): error TS1005: ',' expected.
+src/app/experimentalRoutes.ts(83,39): error TS1005: ',' expected.
+src/app/experimentalRoutes.ts(83,43): error TS1005: ',' expected.
+src/app/experimentalRoutes.ts(83,49): error TS1005: ',' expected.
+src/app/experimentalRoutes.ts(83,54): error TS1005: ',' expected.
+src/app/experimentalRoutes.ts(84,13): error TS1005: ',' expected.
+src/app/experimentalRoutes.ts(84,23): error TS1005: ',' expected.
+src/app/experimentalRoutes.ts(85,11): error TS1135: Argument expression expected.
+src/app/experimentalRoutes.ts(86,9): error TS1128: Declaration or statement expected.
+src/app/experimentalRoutes.ts(87,7): error TS1128: Declaration or statement expected.
+src/app/experimentalRoutes.ts(87,8): error TS1128: Declaration or statement expected.
+src/app/experimentalRoutes.ts(88,5): error TS1128: Declaration or statement expected.
+src/app/experimentalRoutes.ts(89,5): error TS1128: Declaration or statement expected.
+src/app/experimentalRoutes.ts(208,1): error TS1109: Expression expected.
+src/app/server.ts(53,120): error TS1351: An identifier or keyword cannot immediately follow a numeric literal.
+src/app/server.ts(53,198): error TS1005: ';' expected.
+src/app/server.ts(70,7): error TS1161: Unterminated regular expression literal.
+src/app/server.ts(71,7): error TS1005: ',' expected.
+src/app/server.ts(122,17): error TS1109: Expression expected.
+src/app/server.ts(122,18): error TS1109: Expression expected.
+src/app/server.ts(122,38): error TS1005: ',' expected.
+src/app/server.ts(122,51): error TS1005: ',' expected.
+src/app/server.ts(122,54): error TS1005: '(' expected.
+src/app/server.ts(140,13): error TS1161: Unterminated regular expression literal.
+src/app/server.ts(489,22): error TS1005: ',' expected.
+src/app/server.ts(489,32): error TS1005: ',' expected.
+src/app/server.ts(489,38): error TS1005: ',' expected.
+src/app/server.ts(489,40): error TS1005: ';' expected.
+src/app/server.ts(489,40): error TS1351: An identifier or keyword cannot immediately follow a numeric literal.
+src/app/server.ts(489,42): error TS1434: Unexpected keyword or identifier.
+src/app/server.ts(489,45): error TS1434: Unexpected keyword or identifier.
+src/app/server.ts(489,53): error TS1434: Unexpected keyword or identifier.
+src/app/server.ts(489,74): error TS1351: An identifier or keyword cannot immediately follow a numeric literal.
+src/app/server.ts(489,76): error TS1005: ',' expected.
+src/app/server.ts(528,5): error TS1161: Unterminated regular expression literal.
+src/features/acp/services/agent.ts(410,12): error TS1005: ',' expected.
+src/features/acp/services/agent.ts(410,19): error TS1005: ',' expected.
+src/features/acp/services/agent.ts(410,28): error TS1005: ',' expected.
+src/features/acp/services/agent.ts(410,36): error TS1005: ',' expected.
+src/features/acp/services/agent.ts(410,42): error TS1005: ';' expected.
+src/features/acp/services/agent.ts(410,58): error TS1005: ';' expected.
+src/features/acp/services/agent.ts(411,73): error TS1005: ';' expected.
+src/features/acp/services/agent.ts(451,17): error TS1005: ',' expected.
+src/features/acp/services/agent.ts(451,21): error TS1005: ',' expected.
+src/features/acp/services/agent.ts(451,29): error TS1005: ',' expected.
+src/features/acp/services/agent.ts(487,17): error TS1005: ',' expected.
+src/features/acp/services/agent.ts(487,21): error TS1005: ',' expected.
+src/features/acp/services/agent.ts(487,29): error TS1005: ',' expected.
+src/features/acp/services/agent.ts(498,18): error TS1005: ',' expected.
+src/features/acp/services/agent.ts(498,26): error TS1005: ',' expected.
+src/features/acp/services/agent.ts(710,11): error TS1161: Unterminated regular expression literal.
+src/features/acp/services/agent.ts(711,22): error TS1005: ';' expected.
+src/features/acp/services/agent.ts(711,29): error TS1434: Unexpected keyword or identifier.
+src/features/acp/services/agent.ts(711,86): error TS1005: ';'

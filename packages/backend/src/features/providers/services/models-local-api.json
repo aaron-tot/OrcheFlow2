@@ -1,0 +1,402 @@
+{
+  "ollama-local": {
+    "name": "Ollama Local",
+    "env": [],
+    "id": "ollama-local",
+    "npm": "@ai-sdk/openai-compatible",
+    "api": "http://localhost:11434/v1",
+    "models": {
+      "qwen3:8b": {
+        "id": "qwen3:8b",
+        "name": "qwen3:8b",
+        "family": "qwen3",
+        "release_date": "2026-02-03",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "limit": {
+          "context": 128000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "options": {}
+      },
+      "deepseekq3_agent:fixed": {
+        "id": "deepseekq3_agent:fixed",
+        "name": "deepseekq3_agent:fixed",
+        "family": "qwen3",
+        "release_date": "2026-02-03",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "limit": {
+          "context": 128000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "options": {}
+      },
+      "mikepfunk28/deepseekq3_agent:latest": {
+        "id": "mikepfunk28/deepseekq3_agent:latest",
+        "name": "mikepfunk28/deepseekq3_agent:latest",
+        "family": "qwen3",
+        "release_date": "2026-02-03",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "limit": {
+          "context": 128000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "options": {}
+      },
+      "brnpistone/Qwen3-4B-AgentCoder-q6-k:latest": {
+        "id": "brnpistone/Qwen3-4B-AgentCoder-q6-k:latest",
+        "name": "brnpistone/Qwen3-4B-AgentCoder-q6-k:latest",
+        "family": "qwen3",
+        "release_date": "2026-02-02",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "limit": {
+          "context": 128000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "options": {}
+      },
+      "qwen2:0.5b": {
+        "id": "qwen2:0.5b",
+        "name": "qwen2:0.5b",
+        "family": "qwen2",
+        "release_date": "2026-01-24",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "limit": {
+          "context": 128000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "options": {}
+      },
+      "mistral:7b-instruct-q4_K_M": {
+        "id": "mistral:7b-instruct-q4_K_M",
+        "name": "mistral:7b-instruct-q4_K_M",
+        "family": "llama",
+        "release_date": "2026-01-20",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "limit": {
+          "context": 128000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "options": {}
+      },
+      "mistral:latest": {
+        "id": "mistral:latest",
+        "name": "mistral:latest",
+        "family": "llama",
+        "release_date": "2026-01-20",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "limit": {
+          "context": 128000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "options": {}
+      },
+      "llama3:8b-instruct-q6_K": {
+        "id": "llama3:8b-instruct-q6_K",
+        "name": "llama3:8b-instruct-q6_K",
+        "family": "llama",
+        "release_date": "2025-11-09",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "limit": {
+          "context": 128000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "options": {}
+      },
+      "gemma2:9b-instruct-q6_K": {
+        "id": "gemma2:9b-instruct-q6_K",
+        "name": "gemma2:9b-instruct-q6_K",
+        "family": "gemma2",
+        "release_date": "2025-11-09",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "limit": {
+          "context": 128000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "options": {}
+      },
+      "qwen2.5:7b-instruct-q5_K_M": {
+        "id": "qwen2.5:7b-instruct-q5_K_M",
+        "name": "qwen2.5:7b-instruct-q5_K_M",
+        "family": "qwen2",
+        "release_date": "2025-11-08",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "limit": {
+          "context": 128000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "options": {}
+      },
+      "qwen2.5:14b-instruct-q6_K": {
+        "id": "qwen2.5:14b-instruct-q6_K",
+        "name": "qwen2.5:14b-instruct-q6_K",
+        "family": "qwen2",
+        "release_date": "2025-11-06",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "limit": {
+          "context": 128000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "options": {}
+      },
+      "qwen2.5:32b-instruct-q6_K": {
+        "id": "qwen2.5:32b-instruct-q6_K",
+        "name": "qwen2.5:32b-instruct-q6_K",
+        "family": "qwen2",
+        "release_date": "2025-11-06",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "limit": {
+          "context": 128000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "options": {}
+      },
+      "llama3.2:3b": {
+        "id": "llama3.2:3b",
+        "name": "llama3.2:3b",
+        "family": "llama",
+        "release_date": "2025-09-22",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "limit": {
+          "context": 128000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "options": {}
+      },
+      "dolphin3:latest-custom": {
+        "id": "dolphin3:latest-custom",
+        "name": "dolphin3:latest-custom",
+        "family": "llama",
+        "release_date": "2025-09-10",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "limit": {
+          "context": 128000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "options": {}
+      },
+      "gpt-oss:20b-custom": {
+        "id": "gpt-oss:20b-custom",
+        "name": "gpt-oss:20b-custom",
+        "family": "gptoss",
+        "release_date": "2025-09-10",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "limit": {
+          "context": 128000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "options": {}
+      },
+      "gpt-oss:20b": {
+        "id": "gpt-oss:20b",
+        "name": "gpt-oss:20b",
+        "family": "gptoss",
+        "release_date": "2025-09-10",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "limit": {
+          "context": 128000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "options": {}
+      },
+      "dolphin3:latest": {
+        "id": "dolphin3:latest",
+        "name": "dolphin3:latest",
+        "family": "llama",
+        "release_date": "2025-09-10",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "limit": {
+          "context": 128000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "options": {}
+      }
+    }
+  }
+}

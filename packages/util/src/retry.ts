@@ -1,41 +1,43 @@
+/**
+ * Retry Utility
+ * Provides retry functionality with exponential backoff
+ */
+
 export interface RetryOptions {
-  attempts?: number
+  maxAttempts?: number
   delay?: number
-  factor?: number
+  backoffFactor?: number
   maxDelay?: number
-  retryIf?: (error: unknown) => boolean
 }
 
-const TRANSIENT_MESSAGES = [
-  "load failed",
-  "network connection was lost",
-  "network request failed",
-  "failed to fetch",
-  "econnreset",
-  "econnrefused",
-  "etimedout",
-  "socket hang up",
-]
+export async function retry<T>(
+  fn: () => Promise<T>,
+  options: RetryOptions = {}
+): Promise<T> {
+  const {
+    maxAttempts = 3,
+    delay = 1000,
+    backoffFactor = 2,
+    maxDelay = 10000
+  } = options
 
-function isTransientError(error: unknown): boolean {
-  if (!error) return false
-  const message = String(error instanceof Error ? error.message : error).toLowerCase()
-  return TRANSIENT_MESSAGES.some((m) => message.includes(m))
-}
+  let lastError: Error | undefined
+  let currentDelay = delay
 
-export async function retry<T>(fn: () => Promise<T>, options: RetryOptions = {}): Promise<T> {
-  const { attempts = 3, delay = 500, factor = 2, maxDelay = 10000, retryIf = isTransientError } = options
-
-  let lastError: unknown
-  for (let attempt = 0; attempt < attempts; attempt++) {
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     try {
       return await fn()
     } catch (error) {
-      lastError = error
-      if (attempt === attempts - 1 || !retryIf(error)) throw error
-      const wait = Math.min(delay * Math.pow(factor, attempt), maxDelay)
-      await new Promise((resolve) => setTimeout(resolve, wait))
+      lastError = error instanceof Error ? error : new Error(String(error))
+      
+      if (attempt === maxAttempts) {
+        throw lastError
+      }
+
+      await new Promise(resolve => setTimeout(resolve, currentDelay))
+      currentDelay = Math.min(currentDelay * backoffFactor, maxDelay)
     }
   }
+
   throw lastError
 }

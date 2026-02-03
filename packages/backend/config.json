@@ -1,0 +1,29 @@
+{
+  "storageMacOS": {
+    "main": "~/Desktop/orcheFlow_storage",
+    "buckets": {
+      "data": { "main": "data" },
+      "cache": { "main": "cache" },
+      "config": { "main": "config" },
+      "state": { "main": "state" }
+    }
+  },
+  "storageWindows": {
+    "main": "%USERPROFILE%\\Desktop\\orcheFlow_storage",
+    "buckets": {
+      "data": { "main": "data" },
+      "cache": { "main": "cache" },
+      "config": { "main": "config" },
+      "state": { "main": "state" }
+    }
+  },
+  "storageLinux": {
+    "main": "~/Desktop/orcheFlow_storage",
+    "buckets": {
+      "data": { "main": "data" },
+      "cache": { "main": "cache" },
+      "config": { "main": "config" },
+      "state": { "main": "state" }
+    }
+  }
+}

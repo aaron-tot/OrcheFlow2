@@ -1,0 +1,660 @@
+[OpenCode] Mode: PRODUCTION
+[OpenCode] Platform: win32
+[OpenCode] Data directory: C:\Users\Aaron - Main\Desktop\orcheFlow_storage\data
+[OpenCode] Cache directory: C:\Users\Aaron - Main\Desktop\orcheFlow_storage\cache
+[OpenCode] Config directory: C:\Users\Aaron - Main\Desktop\orcheFlow_storage\config
+[OpenCode] State directory: C:\Users\Aaron - Main\Desktop\orcheFlow_storage\state
+[OpenCode] Mode: PRODUCTION
+[OpenCode] Platform: win32
+[OpenCode] Data directory: C:\Users\Aaron - Main\Desktop\orcheFlow_storage\data
+[OpenCode] Cache directory: C:\Users\Aaron - Main\Desktop\orcheFlow_storage\cache
+[OpenCode] Config directory: C:\Users\Aaron - Main\Desktop\orcheFlow_storage\config
+[OpenCode] State directory: C:\Users\Aaron - Main\Desktop\orcheFlow_storage\state
+[Backend] Starting server on 127.0.0.1:4001...
+🔧 Loading config from: C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\packages\backend\src\shared\config\mainConfig.json
+INFO  2026-01-31T10:39:29 +182ms service=server method=GET path=/global/event request
+INFO  2026-01-31T10:39:29 +0ms service=server status=started method=GET path=/global/event request
+INFO  2026-01-31T10:39:29 +0ms service=server global event connected
+INFO  2026-01-31T10:39:29 +4ms service=server status=completed duration=4 method=GET path=/global/event request
+INFO  2026-01-31T10:39:29 +2ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:39:29 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:39:29 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:39:29 +1ms service=server method=GET path=/global/event request
+INFO  2026-01-31T10:39:29 +1ms service=server status=started method=GET path=/global/event request
+INFO  2026-01-31T10:39:29 +0ms service=server global event connected
+INFO  2026-01-31T10:39:29 +0ms service=server status=completed duration=0 method=GET path=/global/event request
+INFO  2026-01-31T10:39:31 +1519ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:39:31 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:39:31 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:39:35 +4158ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:39:35 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:39:35 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:39:36 +825ms service=server global event disconnected
+INFO  2026-01-31T10:39:37 +609ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:39:37 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:39:37 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:39:37 +1ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:39:37 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:39:37 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:39:37 +1ms service=server method=GET path=/global/event request
+INFO  2026-01-31T10:39:37 +0ms service=server status=started method=GET path=/global/event request
+INFO  2026-01-31T10:39:37 +0ms service=server global event connected
+INFO  2026-01-31T10:39:37 +1ms service=server status=completed duration=1 method=GET path=/global/event request
+INFO  2026-01-31T10:39:37 +308ms service=server method=GET path=/path request
+INFO  2026-01-31T10:39:37 +0ms service=server status=started method=GET path=/path request
+INFO  2026-01-31T10:39:37 +0ms service=default directory=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\packages\backend creating instance
+INFO  2026-01-31T10:39:37 +1ms service=project directory=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\packages\backend fromDirectory
+INFO  2026-01-31T10:39:37 +1ms service=server method=GET path=/global/config request
+INFO  2026-01-31T10:39:37 +0ms service=server status=started method=GET path=/global/config request
+INFO  2026-01-31T10:39:37 +15ms service=server method=GET path=/project request
+INFO  2026-01-31T10:39:37 +0ms service=server status=started method=GET path=/project request
+INFO  2026-01-31T10:39:37 +0ms service=server method=GET path=/provider request
+INFO  2026-01-31T10:39:37 +0ms service=server status=started method=GET path=/provider request
+INFO  2026-01-31T10:39:37 +1ms service=server method=GET path=/provider/auth request
+INFO  2026-01-31T10:39:37 +0ms service=server status=started method=GET path=/provider/auth request
+INFO  2026-01-31T10:39:37 +47ms service=default directory=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\packages\backend bootstrapping
+INFO  2026-01-31T10:39:37 +5ms service=config path=C:\Users\Aaron - Main\Desktop\orcheFlow_storage\config\config.json loading
+INFO  2026-01-31T10:39:37 +0ms service=config path=C:\Users\Aaron - Main\Desktop\orcheFlow_storage\config\opencode.json loading
+INFO  2026-01-31T10:39:37 +0ms service=config path=C:\Users\Aaron - Main\Desktop\orcheFlow_storage\config\opencode.jsonc loading
+INFO  2026-01-31T10:39:37 +3ms service=config path=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\opencode.jsonc loading
+INFO  2026-01-31T10:39:37 +30ms service=config path=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\opencode.json loading
+INFO  2026-01-31T10:39:37 +4ms service=bun cmd=["C:\\Users\\Aaron - Main\\.bun\\bin\\bun.exe","add","@opencode-ai/plugin@latest","--exact"] cwd=C:\Users\Aaron - Main\Desktop\orcheFlow_storage\config running
+INFO  2026-01-31T10:39:37 +8ms service=config path=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\.opencode\opencode.jsonc loading
+INFO  2026-01-31T10:39:37 +2ms service=config path=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\.opencode\opencode.json loading
+INFO  2026-01-31T10:39:37 +0ms service=bun cmd=["C:\\Users\\Aaron - Main\\.bun\\bin\\bun.exe","add","@opencode-ai/plugin@latest","--exact"] cwd=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\.opencode running
+🔧 Loading config from: C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\packages\backend\src\shared\config\mainConfig.json
+INFO  2026-01-31T10:39:37 +29ms service=plugin name=CodexAuthPlugin loading internal plugin
+INFO  2026-01-31T10:39:37 +0ms service=plugin name=CopilotAuthPlugin loading internal plugin
+INFO  2026-01-31T10:39:37 +0ms service=plugin path=opencode-anthropic-auth@0.0.9 loading plugin
+INFO  2026-01-31T10:39:37 +92ms service=plugin path=@gitlab/opencode-gitlab-auth@1.3.0 loading plugin
+INFO  2026-01-31T10:39:38 +579ms service=bus type=* subscribing
+INFO  2026-01-31T10:39:38 +0ms service=bus type=session.updated subscribing
+INFO  2026-01-31T10:39:38 +0ms service=bus type=message.updated subscribing
+INFO  2026-01-31T10:39:38 +1ms service=bus type=message.part.updated subscribing
+INFO  2026-01-31T10:39:38 +0ms service=bus type=session.updated subscribing
+INFO  2026-01-31T10:39:38 +0ms service=bus type=message.updated subscribing
+INFO  2026-01-31T10:39:38 +0ms service=bus type=message.part.updated subscribing
+INFO  2026-01-31T10:39:38 +0ms service=bus type=session.diff subscribing
+INFO  2026-01-31T10:39:38 +0ms service=format init
+INFO  2026-01-31T10:39:38 +0ms service=bus type=file.edited subscribing
+INFO  2026-01-31T10:39:38 +0ms service=file.watcher init
+INFO  2026-01-31T10:39:38 +6ms service=scheduler id=snapshot.cleanup run
+INFO  2026-01-31T10:39:38 +0ms service=scheduler id=tool.truncation.cleanup run
+INFO  2026-01-31T10:39:38 +6ms service=file.watcher platform=win32 backend=windows watcher backend
+ERROR 2026-01-31T10:39:38 +0ms service=file.watcher error={"name":"ResolveMessage","position":null,"message":"Cannot find module '@parcel/watcher-win32-x64' from 'C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v5\\branches\\opencode-fresh\\packages\\backend\\src\\features\\files\\services\\watcher.ts'","level":"error","specifier":"@parcel/watcher-win32-x64","importKind":"require-call","referrer":"C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v5\\branches\\opencode-fresh\\packages\\backend\\src\\features\\files\\services\\watcher.ts"} failed to load watcher binding
+INFO  2026-01-31T10:39:38 +8ms service=models.dev file={} refreshing
+INFO  2026-01-31T10:39:38 +1ms service=server status=completed duration=839 method=GET path=/path request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=821 method=GET path=/provider/auth request
+INFO  2026-01-31T10:39:38 +9ms service=bun code=0 stdout=bun add v1.3.6 (d530ed99)
+
+installed @opencode-ai/plugin@1.1.47
+
+[210.00ms] done
+ stderr=Resolving dependencies
+Resolved, downloaded and extracted [1]
+Saved lockfile
+ done
+INFO  2026-01-31T10:39:38 +0ms service=bun cmd=["C:\\Users\\Aaron - Main\\.bun\\bin\\bun.exe","install"] cwd=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\.opencode running
+INFO  2026-01-31T10:39:38 +6ms service=bun code=0 stdout=bun add v1.3.6 (d530ed99)
+
+installed @opencode-ai/plugin@1.1.47
+
+[219.00ms] done
+ stderr=Resolving dependencies
+Resolved, downloaded and extracted [1]
+Saved lockfile
+ done
+INFO  2026-01-31T10:39:38 +0ms service=bun cmd=["C:\\Users\\Aaron - Main\\.bun\\bin\\bun.exe","install"] cwd=C:\Users\Aaron - Main\Desktop\orcheFlow_storage\config running
+INFO  2026-01-31T10:39:38 +8ms service=vcs branch=fresh-start initialized
+INFO  2026-01-31T10:39:38 +0ms service=bus type=file.watcher.updated subscribing
+INFO  2026-01-31T10:39:38 +11ms service=provider status=started state
+INFO  2026-01-31T10:39:38 +0ms service=models.dev file={} refreshing
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=856 method=GET path=/project request
+INFO  2026-01-31T10:39:38 +24ms service=provider init
+INFO  2026-01-31T10:39:38 +2ms service=bun code=0 stdout=bun install v1.3.6 (d530ed99)
+
+Checked 3 installs across 4 packages (no changes) [9.00ms]
+ stderr= done
+INFO  2026-01-31T10:39:38 +0ms service=bun code=0 stdout=bun install v1.3.6 (d530ed99)
+
+Checked 3 installs across 4 packages (no changes) [17.00ms]
+ stderr= done
+INFO  2026-01-31T10:39:38 +4ms service=provider providerID=opencode found
+INFO  2026-01-31T10:39:38 +0ms service=provider providerID=ollama-local found
+INFO  2026-01-31T10:39:38 +0ms service=provider status=completed duration=30 state
+INFO  2026-01-31T10:39:38 +23ms service=server status=completed duration=909 method=GET path=/provider request
+INFO  2026-01-31T10:39:38 +42ms service=server status=completed duration=965 method=GET path=/global/config request
+INFO  2026-01-31T10:39:38 +77ms service=server method=OPTIONS path=/project/current request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=OPTIONS path=/project/current request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=0 method=OPTIONS path=/project/current request
+INFO  2026-01-31T10:39:38 +0ms service=server method=OPTIONS path=/provider request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=OPTIONS path=/provider request
+INFO  2026-01-31T10:39:38 +1ms service=server status=completed duration=1 method=OPTIONS path=/provider request
+INFO  2026-01-31T10:39:38 +0ms service=server method=OPTIONS path=/agent request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=OPTIONS path=/agent request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=0 method=OPTIONS path=/agent request
+INFO  2026-01-31T10:39:38 +1ms service=server method=GET path=/project/current request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=GET path=/project/current request
+INFO  2026-01-31T10:39:38 +0ms service=default directory=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh creating instance
+INFO  2026-01-31T10:39:38 +0ms service=project directory=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh fromDirectory
+INFO  2026-01-31T10:39:38 +1ms service=server method=GET path=/provider request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=GET path=/provider request
+INFO  2026-01-31T10:39:38 +0ms service=server method=GET path=/agent request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=GET path=/agent request
+INFO  2026-01-31T10:39:38 +0ms service=server method=OPTIONS path=/config request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=OPTIONS path=/config request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=0 method=OPTIONS path=/config request
+INFO  2026-01-31T10:39:38 +1ms service=server method=GET path=/session request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=GET path=/session request
+INFO  2026-01-31T10:39:38 +1ms service=server method=GET path=/config request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=GET path=/config request
+INFO  2026-01-31T10:39:38 +52ms service=default directory=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh bootstrapping
+INFO  2026-01-31T10:39:38 +1ms service=config path=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\opencode.jsonc loading
+INFO  2026-01-31T10:39:38 +3ms service=config path=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\opencode.json loading
+INFO  2026-01-31T10:39:38 +1ms service=bun cmd=["C:\\Users\\Aaron - Main\\.bun\\bin\\bun.exe","add","@opencode-ai/plugin@latest","--exact"] cwd=C:\Users\Aaron - Main\Desktop\orcheFlow_storage\config running
+INFO  2026-01-31T10:39:38 +7ms service=config path=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\.opencode\opencode.jsonc loading
+INFO  2026-01-31T10:39:38 +2ms service=config path=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\.opencode\opencode.json loading
+INFO  2026-01-31T10:39:38 +0ms service=bun cmd=["C:\\Users\\Aaron - Main\\.bun\\bin\\bun.exe","add","@opencode-ai/plugin@latest","--exact"] cwd=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\.opencode running
+🔧 Loading config from: C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\packages\backend\src\shared\config\mainConfig.json
+INFO  2026-01-31T10:39:38 +11ms service=plugin name=CodexAuthPlugin loading internal plugin
+INFO  2026-01-31T10:39:38 +0ms service=plugin name=CopilotAuthPlugin loading internal plugin
+INFO  2026-01-31T10:39:38 +0ms service=plugin path=opencode-anthropic-auth@0.0.9 loading plugin
+INFO  2026-01-31T10:39:38 +1ms service=plugin path=@gitlab/opencode-gitlab-auth@1.3.0 loading plugin
+INFO  2026-01-31T10:39:38 +1ms service=bus type=* subscribing
+INFO  2026-01-31T10:39:38 +0ms service=bus type=session.updated subscribing
+INFO  2026-01-31T10:39:38 +0ms service=bus type=message.updated subscribing
+INFO  2026-01-31T10:39:38 +0ms service=bus type=message.part.updated subscribing
+INFO  2026-01-31T10:39:38 +0ms service=bus type=session.updated subscribing
+INFO  2026-01-31T10:39:38 +0ms service=bus type=message.updated subscribing
+INFO  2026-01-31T10:39:38 +0ms service=bus type=message.part.updated subscribing
+INFO  2026-01-31T10:39:38 +0ms service=bus type=session.diff subscribing
+INFO  2026-01-31T10:39:38 +0ms service=format init
+INFO  2026-01-31T10:39:38 +0ms service=bus type=file.edited subscribing
+INFO  2026-01-31T10:39:38 +0ms service=file.watcher init
+INFO  2026-01-31T10:39:38 +0ms service=scheduler id=snapshot.cleanup run
+INFO  2026-01-31T10:39:38 +5ms service=file.watcher platform=win32 backend=windows watcher backend
+INFO  2026-01-31T10:39:38 +3ms service=models.dev file={} refreshing
+INFO  2026-01-31T10:39:38 +2ms service=server status=completed duration=92 method=GET path=/project/current request
+INFO  2026-01-31T10:39:38 +1ms service=server status=completed duration=89 method=GET path=/config request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=92 method=GET path=/agent request
+INFO  2026-01-31T10:39:38 +5ms service=server status=completed duration=96 method=GET path=/session request
+INFO  2026-01-31T10:39:38 +9ms service=provider status=started state
+INFO  2026-01-31T10:39:38 +0ms service=models.dev file={} refreshing
+INFO  2026-01-31T10:39:38 +0ms service=bun code=0 stdout=bun add v1.3.6 (d530ed99)
+
+installed @opencode-ai/plugin@1.1.47
+
+[16.00ms] done
+ stderr=Saved lockfile
+ done
+INFO  2026-01-31T10:39:38 +0ms service=bun cmd=["C:\\Users\\Aaron - Main\\.bun\\bin\\bun.exe","install"] cwd=C:\Users\Aaron - Main\Desktop\orcheFlow_storage\config running
+INFO  2026-01-31T10:39:38 +10ms service=vcs branch=fresh-start initialized
+INFO  2026-01-31T10:39:38 +0ms service=bus type=file.watcher.updated subscribing
+INFO  2026-01-31T10:39:38 +0ms service=bun code=0 stdout=bun add v1.3.6 (d530ed99)
+
+installed @opencode-ai/plugin@1.1.47
+
+[22.00ms] done
+ stderr=Saved lockfile
+ done
+INFO  2026-01-31T10:39:38 +1ms service=bun cmd=["C:\\Users\\Aaron - Main\\.bun\\bin\\bun.exe","install"] cwd=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\.opencode running
+INFO  2026-01-31T10:39:38 +25ms service=provider init
+INFO  2026-01-31T10:39:38 +4ms service=bun code=0 stdout=bun install v1.3.6 (d530ed99)
+
+Checked 3 installs across 4 packages (no changes) [10.00ms]
+ stderr= done
+INFO  2026-01-31T10:39:38 +1ms service=provider providerID=opencode found
+INFO  2026-01-31T10:39:38 +1ms service=provider providerID=ollama-local found
+INFO  2026-01-31T10:39:38 +0ms service=provider status=completed duration=42 state
+INFO  2026-01-31T10:39:38 +19ms service=server status=completed duration=167 method=GET path=/provider request
+INFO  2026-01-31T10:39:38 +6ms service=bun code=0 stdout=bun install v1.3.6 (d530ed99)
+
+Checked 3 installs across 4 packages (no changes) [18.00ms]
+ stderr= done
+INFO  2026-01-31T10:39:38 +43ms service=server method=OPTIONS path=/path request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=OPTIONS path=/path request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=0 method=OPTIONS path=/path request
+INFO  2026-01-31T10:39:38 +0ms service=server method=OPTIONS path=/command request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=OPTIONS path=/command request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=0 method=OPTIONS path=/command request
+INFO  2026-01-31T10:39:38 +1ms service=server method=OPTIONS path=/session/status request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=OPTIONS path=/session/status request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=0 method=OPTIONS path=/session/status request
+INFO  2026-01-31T10:39:38 +1ms service=server method=OPTIONS path=/mcp request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=OPTIONS path=/mcp request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=0 method=OPTIONS path=/mcp request
+INFO  2026-01-31T10:39:38 +0ms service=server method=GET path=/path request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=GET path=/path request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=0 method=GET path=/path request
+INFO  2026-01-31T10:39:38 +1ms service=server method=GET path=/command request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=GET path=/command request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=0 method=GET path=/command request
+INFO  2026-01-31T10:39:38 +0ms service=server method=GET path=/session/status request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=GET path=/session/status request
+INFO  2026-01-31T10:39:38 +1ms service=server status=completed duration=1 method=GET path=/session/status request
+INFO  2026-01-31T10:39:38 +0ms service=server method=OPTIONS path=/lsp request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=OPTIONS path=/lsp request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=0 method=OPTIONS path=/lsp request
+INFO  2026-01-31T10:39:38 +0ms service=server method=OPTIONS path=/vcs request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=OPTIONS path=/vcs request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=0 method=OPTIONS path=/vcs request
+INFO  2026-01-31T10:39:38 +0ms service=server method=OPTIONS path=/permission request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=OPTIONS path=/permission request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=0 method=OPTIONS path=/permission request
+INFO  2026-01-31T10:39:38 +0ms service=server method=GET path=/mcp request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=GET path=/mcp request
+INFO  2026-01-31T10:39:38 +2ms service=mcp key=context7 type=remote found
+INFO  2026-01-31T10:39:38 +1ms service=server status=completed duration=3 method=GET path=/mcp request
+INFO  2026-01-31T10:39:38 +0ms service=server method=OPTIONS path=/question request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=OPTIONS path=/question request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=0 method=OPTIONS path=/question request
+INFO  2026-01-31T10:39:38 +1ms service=server method=GET path=/lsp request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=GET path=/lsp request
+INFO  2026-01-31T10:39:38 +0ms service=server method=GET path=/vcs request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=GET path=/vcs request
+INFO  2026-01-31T10:39:38 +1ms service=server status=completed duration=1 method=GET path=/vcs request
+INFO  2026-01-31T10:39:38 +0ms service=server method=GET path=/permission request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=GET path=/permission request
+INFO  2026-01-31T10:39:38 +1ms service=server status=completed duration=1 method=GET path=/permission request
+INFO  2026-01-31T10:39:38 +0ms service=server method=GET path=/question request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=GET path=/question request
+INFO  2026-01-31T10:39:38 +1ms service=server status=completed duration=1 method=GET path=/question request
+INFO  2026-01-31T10:39:38 +142ms service=server method=OPTIONS path=/find/file request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=OPTIONS path=/find/file request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=0 method=OPTIONS path=/find/file request
+INFO  2026-01-31T10:39:38 +0ms service=server method=OPTIONS path=/file request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=OPTIONS path=/file request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=0 method=OPTIONS path=/file request
+INFO  2026-01-31T10:39:38 +1ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:39:38 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:39:38 +0ms service=server method=GET path=/find/file request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=GET path=/find/file request
+INFO  2026-01-31T10:39:38 +1ms service=file query= kind=all search
+INFO  2026-01-31T10:39:38 +2ms service=server status=completed duration=3 method=GET path=/find/file request
+INFO  2026-01-31T10:39:38 +3ms service=server method=GET path=/file request
+INFO  2026-01-31T10:39:38 +0ms service=server status=started method=GET path=/file request
+INFO  2026-01-31T10:39:38 +6ms service=server status=completed duration=6 method=GET path=/file request
+INFO  2026-01-31T10:39:38 +56ms service=server status=completed duration=214 method=GET path=/lsp request
+INFO  2026-01-31T10:39:41 +2912ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:39:41 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:39:41 +1ms service=server status=completed duration=1 method=GET path=/global/health request
+INFO  2026-01-31T10:39:46 +4823ms service=server method=OPTIONS path=/session request
+INFO  2026-01-31T10:39:46 +0ms service=server status=started method=OPTIONS path=/session request
+INFO  2026-01-31T10:39:46 +0ms service=server status=completed duration=0 method=OPTIONS path=/session request
+INFO  2026-01-31T10:39:46 +1ms service=server method=POST path=/session request
+INFO  2026-01-31T10:39:46 +0ms service=server status=started method=POST path=/session request
+INFO  2026-01-31T10:39:46 +1ms service=session id=ses_3ec5cd440ffeFviDbG2FdlPjzf slug=eager-circuit version=1.0.0-backend projectID=5495fdde9dd0963636c1d4621394a7a2b3228c17 directory=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh title=New session - 2026-01-31T10:39:46.623Z time={"created":1769855986623,"updated":1769855986623} created
+INFO  2026-01-31T10:39:46 +1ms service=bus type=session.created publishing
+INFO  2026-01-31T10:39:46 +1ms service=bus type=session.updated publishing
+INFO  2026-01-31T10:39:46 +1ms service=server status=completed duration=4 method=POST path=/session request
+INFO  2026-01-31T10:39:46 +12ms service=server method=GET path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/message request
+INFO  2026-01-31T10:39:46 +0ms service=server status=started method=GET path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/message request
+INFO  2026-01-31T10:39:46 +2ms service=server status=completed duration=2 method=GET path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/message request
+INFO  2026-01-31T10:39:46 +50ms service=server method=OPTIONS path=/find/file request
+INFO  2026-01-31T10:39:46 +0ms service=server status=started method=OPTIONS path=/find/file request
+INFO  2026-01-31T10:39:46 +0ms service=server status=completed duration=0 method=OPTIONS path=/find/file request
+INFO  2026-01-31T10:39:46 +1ms service=server method=OPTIONS path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/message request
+INFO  2026-01-31T10:39:46 +0ms service=server status=started method=OPTIONS path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/message request
+INFO  2026-01-31T10:39:46 +0ms service=server status=completed duration=0 method=OPTIONS path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/message request
+INFO  2026-01-31T10:39:46 +0ms service=server method=OPTIONS path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/diff request
+INFO  2026-01-31T10:39:46 +0ms service=server status=started method=OPTIONS path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/diff request
+INFO  2026-01-31T10:39:46 +0ms service=server status=completed duration=0 method=OPTIONS path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/diff request
+INFO  2026-01-31T10:39:46 +1ms service=server method=OPTIONS path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/message request
+INFO  2026-01-31T10:39:46 +0ms service=server status=started method=OPTIONS path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/message request
+INFO  2026-01-31T10:39:46 +0ms service=server status=completed duration=0 method=OPTIONS path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/message request
+INFO  2026-01-31T10:39:46 +0ms service=server method=GET path=/find/file request
+INFO  2026-01-31T10:39:46 +0ms service=server status=started method=GET path=/find/file request
+INFO  2026-01-31T10:39:46 +0ms service=file query= kind=all search
+INFO  2026-01-31T10:39:46 +2ms service=server status=completed duration=2 method=GET path=/find/file request
+INFO  2026-01-31T10:39:46 +3ms service=server method=GET path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/message request
+INFO  2026-01-31T10:39:46 +1ms service=server status=started method=GET path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/message request
+INFO  2026-01-31T10:39:46 +0ms service=server status=completed duration=0 method=GET path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/message request
+INFO  2026-01-31T10:39:46 +1ms service=server method=GET path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/diff request
+INFO  2026-01-31T10:39:46 +0ms service=server status=started method=GET path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/diff request
+INFO  2026-01-31T10:39:46 +4ms service=server status=completed duration=4 method=GET path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/diff request
+INFO  2026-01-31T10:39:46 +1ms service=server method=POST path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/message request
+INFO  2026-01-31T10:39:46 +0ms service=server status=started method=POST path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/message request
+INFO  2026-01-31T10:39:46 +6ms service=server status=completed duration=6 method=POST path=/session/ses_3ec5cd440ffeFviDbG2FdlPjzf/message request
+INFO  2026-01-31T10:39:46 +22ms service=bus type=message.updated publishing
+INFO  2026-01-31T10:39:46 +4ms service=bus type=message.part.updated publishing
+INFO  2026-01-31T10:39:46 +3ms service=bus type=session.updated publishing
+INFO  2026-01-31T10:39:46 +8ms service=bus type=session.status publishing
+INFO  2026-01-31T10:39:46 +1ms service=session.prompt step=0 sessionID=ses_3ec5cd440ffeFviDbG2FdlPjzf loop
+INFO  2026-01-31T10:39:46 +8ms service=llm providerID=opencode modelID=gpt-5-nano sessionID=ses_3ec5cd440ffeFviDbG2FdlPjzf small=true agent=title stream
+INFO  2026-01-31T10:39:46 +1ms service=provider status=started providerID=opencode getSDK
+INFO  2026-01-31T10:39:46 +1ms service=provider providerID=opencode pkg=@ai-sdk/openai using bundled provider
+INFO  2026-01-31T10:39:46 +0ms service=provider status=completed duration=1 providerID=opencode getSDK
+INFO  2026-01-31T10:39:46 +18ms service=bus type=message.updated publishing
+INFO  2026-01-31T10:39:46 +1ms service=session.prompt status=started resolveTools
+INFO  2026-01-31T10:39:46 +34ms service=tool.registry status=started invalid
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=started question
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=started bash
+INFO  2026-01-31T10:39:46 +1ms service=bash-tool shell=C:\Windows\system32\cmd.exe bash tool using shell
+INFO  2026-01-31T10:39:46 +1ms service=tool.registry status=started read
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=started glob
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=started grep
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=started edit
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=started write
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=started task
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=started webfetch
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=started todowrite
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=started todoread
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=started skill
+INFO  2026-01-31T10:39:46 +1ms service=tool.registry status=started retitle
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=started github-pr-search
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=started github-triage
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=completed duration=3 invalid
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=completed duration=3 question
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=completed duration=1 read
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=completed duration=1 glob
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=completed duration=1 grep
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=completed duration=1 edit
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=completed duration=1 write
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=completed duration=1 webfetch
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=completed duration=1 todowrite
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=completed duration=1 todoread
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=completed duration=0 retitle
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=completed duration=0 github-pr-search
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=completed duration=0 github-triage
+INFO  2026-01-31T10:39:46 +1ms service=tool.registry status=completed duration=4 bash
+INFO  2026-01-31T10:39:46 +0ms service=permission permission=task pattern=general ruleset=[{"permission":"*","action":"allow","pattern":"*"},{"permission":"doom_loop","action":"ask","pattern":"*"},{"permission":"external_directory","pattern":"*","action":"ask"},{"permission":"external_directory","pattern":"C:\\Users\\Aaron - Main\\Desktop\\orcheFlow_storage\\data\\tool-output","action":"allow"},{"permission":"external_directory","pattern":"C:\\Users\\Aaron - Main\\Desktop\\orcheFlow_storage\\data\\tool-output\\*","action":"allow"},{"permission":"question","action":"deny","pattern":"*"},{"permission":"plan_enter","action":"deny","pattern":"*"},{"permission":"plan_exit","action":"deny","pattern":"*"},{"permission":"read","pattern":"*","action":"allow"},{"permission":"read","pattern":"*.env","action":"ask"},{"permission":"read","pattern":"*.env.*","action":"ask"},{"permission":"read","pattern":"*.env.example","action":"allow"},{"permission":"question","action":"allow","pattern":"*"},{"permission":"plan_enter","action":"allow","pattern":"*"},{"permission":"github-triage","action":"deny","pattern":"*"},{"permission":"github-pr-search","action":"deny","pattern":"*"},{"permission":"external_directory","pattern":"C:\\Users\\Aaron - Main\\Desktop\\orcheFlow_storage\\data\\tool-output","action":"allow"},{"permission":"external_directory","pattern":"C:\\Users\\Aaron - Main\\Desktop\\orcheFlow_storage\\data\\tool-output\\*","action":"allow"}] evaluate
+INFO  2026-01-31T10:39:46 +0ms service=permission permission=task pattern=explore ruleset=[{"permission":"*","action":"allow","pattern":"*"},{"permission":"doom_loop","action":"ask","pattern":"*"},{"permission":"external_directory","pattern":"*","action":"ask"},{"permission":"external_directory","pattern":"C:\\Users\\Aaron - Main\\Desktop\\orcheFlow_storage\\data\\tool-output","action":"allow"},{"permission":"external_directory","pattern":"C:\\Users\\Aaron - Main\\Desktop\\orcheFlow_storage\\data\\tool-output\\*","action":"allow"},{"permission":"question","action":"deny","pattern":"*"},{"permission":"plan_enter","action":"deny","pattern":"*"},{"permission":"plan_exit","action":"deny","pattern":"*"},{"permission":"read","pattern":"*","action":"allow"},{"permission":"read","pattern":"*.env","action":"ask"},{"permission":"read","pattern":"*.env.*","action":"ask"},{"permission":"read","pattern":"*.env.example","action":"allow"},{"permission":"question","action":"allow","pattern":"*"},{"permission":"plan_enter","action":"allow","pattern":"*"},{"permission":"github-triage","action":"deny","pattern":"*"},{"permission":"github-pr-search","action":"deny","pattern":"*"},{"permission":"external_directory","pattern":"C:\\Users\\Aaron - Main\\Desktop\\orcheFlow_storage\\data\\tool-output","action":"allow"},{"permission":"external_directory","pattern":"C:\\Users\\Aaron - Main\\Desktop\\orcheFlow_storage\\data\\tool-output\\*","action":"allow"}] evaluate
+INFO  2026-01-31T10:39:46 +0ms service=permission permission=task pattern=docs ruleset=[{"permission":"*","action":"allow","pattern":"*"},{"permission":"doom_loop","action":"ask","pattern":"*"},{"permission":"external_directory","pattern":"*","action":"ask"},{"permission":"external_directory","pattern":"C:\\Users\\Aaron - Main\\Desktop\\orcheFlow_storage\\data\\tool-output","action":"allow"},{"permission":"external_directory","pattern":"C:\\Users\\Aaron - Main\\Desktop\\orcheFlow_storage\\data\\tool-output\\*","action":"allow"},{"permission":"question","action":"deny","pattern":"*"},{"permission":"plan_enter","action":"deny","pattern":"*"},{"permission":"plan_exit","action":"deny","pattern":"*"},{"permission":"read","pattern":"*","action":"allow"},{"permission":"read","pattern":"*.env","action":"ask"},{"permission":"read","pattern":"*.env.*","action":"ask"},{"permission":"read","pattern":"*.env.example","action":"allow"},{"permission":"question","action":"allow","pattern":"*"},{"permission":"plan_enter","action":"allow","pattern":"*"},{"permission":"github-triage","action":"deny","pattern":"*"},{"permission":"github-pr-search","action":"deny","pattern":"*"},{"permission":"external_directory","pattern":"C:\\Users\\Aaron - Main\\Desktop\\orcheFlow_storage\\data\\tool-output","action":"allow"},{"permission":"external_directory","pattern":"C:\\Users\\Aaron - Main\\Desktop\\orcheFlow_storage\\data\\tool-output\\*","action":"allow"}] evaluate
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=completed duration=2 task
+INFO  2026-01-31T10:39:46 +4ms service=permission permission=skill pattern=bun-file-io ruleset=[{"permission":"*","action":"allow","pattern":"*"},{"permission":"doom_loop","action":"ask","pattern":"*"},{"permission":"external_directory","pattern":"*","action":"ask"},{"permission":"external_directory","pattern":"C:\\Users\\Aaron - Main\\Desktop\\orcheFlow_storage\\data\\tool-output","action":"allow"},{"permission":"external_directory","pattern":"C:\\Users\\Aaron - Main\\Desktop\\orcheFlow_storage\\data\\tool-output\\*","action":"allow"},{"permission":"question","action":"deny","pattern":"*"},{"permission":"plan_enter","action":"deny","pattern":"*"},{"permission":"plan_exit","action":"deny","pattern":"*"},{"permission":"read","pattern":"*","action":"allow"},{"permission":"read","pattern":"*.env","action":"ask"},{"permission":"read","pattern":"*.env.*","action":"ask"},{"permission":"read","pattern":"*.env.example","action":"allow"},{"permission":"question","action":"allow","pattern":"*"},{"permission":"plan_enter","action":"allow","pattern":"*"},{"permission":"github-triage","action":"deny","pattern":"*"},{"permission":"github-pr-search","action":"deny","pattern":"*"},{"permission":"external_directory","pattern":"C:\\Users\\Aaron - Main\\Desktop\\orcheFlow_storage\\data\\tool-output","action":"allow"},{"permission":"external_directory","pattern":"C:\\Users\\Aaron - Main\\Desktop\\orcheFlow_storage\\data\\tool-output\\*","action":"allow"}] evaluate
+INFO  2026-01-31T10:39:46 +0ms service=tool.registry status=completed duration=6 skill
+INFO  2026-01-31T10:39:46 +5ms service=session.prompt status=completed duration=47 resolveTools
+INFO  2026-01-31T10:39:46 +5ms service=session.processor process
+INFO  2026-01-31T10:39:46 +0ms service=llm providerID=ollama-local modelID=llama3.2:3b sessionID=ses_3ec5cd440ffeFviDbG2FdlPjzf small=false agent=build stream
+INFO  2026-01-31T10:39:46 +0ms service=provider status=started providerID=ollama-local getSDK
+INFO  2026-01-31T10:39:46 +0ms service=provider providerID=ollama-local pkg=@ai-sdk/openai-compatible using bundled provider
+INFO  2026-01-31T10:39:46 +0ms service=provider status=completed duration=0 providerID=ollama-local getSDK
+INFO  2026-01-31T10:39:46 +4ms service=bus type=session.status publishing
+ERROR 2026-01-31T10:39:46 +4ms service=llm providerID=ollama-local modelID=llama3.2:3b sessionID=ses_3ec5cd440ffeFviDbG2FdlPjzf small=false agent=build error={"error":{"code":"ConnectionRefused","path":"http://localhost:11434/v1/chat/completions","errno":0}} stream error
+ERROR 2026-01-31T10:39:46 +3ms service=session.processor error=Unable to connect. Is the computer able to access the url? process
+INFO  2026-01-31T10:39:46 +1ms service=session.prompt sessionID=ses_3ec5cd440ffeFviDbG2FdlPjzf cancel
+INFO  2026-01-31T10:39:46 +0ms service=bus type=session.status publishing
+INFO  2026-01-31T10:39:46 +0ms service=bus type=session.idle publishing
+628 |           { message: e.message },
+629 |           {
+630 |             cause: e,
+631 |           },
+632 |         ).toObject()
+633 |       case MessageV2.OutputLengthError.isInstance(e):
+                                             ^
+TypeError: MessageV2.OutputLengthError.isInstance is not a function. (In 'MessageV2.OutputLengthError.isInstance(e)', 'MessageV2.OutputLengthError.isInstance' is undefined)
+      at fromError (C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\packages\backend\src\features\agents\infrastructure\message-v2.ts:633:40)
+      at process (C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\packages\backend\src\features\agents\infrastructure\processor.ts:344:37)
+
+INFO  2026-01-31T10:39:46 +2ms service=bus type=message.updated publishing
+INFO  2026-01-31T10:39:46 +0ms service=llm providerID=opencode modelID=gpt-5-nano sessionID=ses_3ec5cd440ffeFviDbG2FdlPjzf small=true agent=title stream
+INFO  2026-01-31T10:39:46 +2ms service=bus type=session.updated publishing
+INFO  2026-01-31T10:39:46 +1ms service=bus type=session.diff publishing
+INFO  2026-01-31T10:39:47 +242ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:39:47 +1ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:39:47 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:39:47 +774ms service=session.summary title=Greeting: say hello back conversation title
+INFO  2026-01-31T10:39:47 +1ms service=bus type=message.updated publishing
+INFO  2026-01-31T10:39:47 +53ms service=bus type=session.updated publishing
+INFO  2026-01-31T10:39:48 +912ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:39:48 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:39:48 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:39:51 +2973ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:39:51 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:39:51 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:39:57 +5597ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:39:57 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:39:57 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:39:58 +1431ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:39:58 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:39:58 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:40:01 +2981ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:01 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:01 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:40:07 +5592ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:07 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:07 +1ms service=server status=completed duration=1 method=GET path=/global/health request
+INFO  2026-01-31T10:40:08 +1426ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:08 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:08 +1ms service=server status=completed duration=1 method=GET path=/global/health request
+INFO  2026-01-31T10:40:11 +2983ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:11 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:11 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:40:17 +5589ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:17 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:17 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:40:18 +1421ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:18 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:18 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:40:21 +2984ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:21 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:21 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:40:27 +5281ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:27 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:27 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:40:28 +1742ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:28 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:28 +1ms service=server status=completed duration=1 method=GET path=/global/health request
+INFO  2026-01-31T10:40:31 +2665ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:31 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:31 +1ms service=server status=completed duration=1 method=GET path=/global/health request
+INFO  2026-01-31T10:40:37 +5590ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:37 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:37 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:40:38 +1739ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:38 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:38 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:40:41 +2668ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:41 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:41 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:40:47 +5602ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:47 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:47 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:40:48 +1726ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:48 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:48 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:40:51 +2664ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:51 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:51 +2ms service=server status=completed duration=2 method=GET path=/global/health request
+INFO  2026-01-31T10:40:57 +5610ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:57 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:57 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:40:58 +1724ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:40:58 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:40:58 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:41:01 +2979ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:01 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:01 +1ms service=server status=completed duration=1 method=GET path=/global/health request
+INFO  2026-01-31T10:41:07 +5594ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:07 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:07 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:41:08 +1422ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:08 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:08 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:41:11 +2980ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:11 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:11 +3ms service=server status=completed duration=3 method=GET path=/global/health request
+INFO  2026-01-31T10:41:17 +5603ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:17 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:17 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:41:18 +1413ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:18 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:18 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:41:21 +2989ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:21 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:21 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:41:27 +5595ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:27 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:27 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:41:28 +1417ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:28 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:28 +1ms service=server status=completed duration=1 method=GET path=/global/health request
+INFO  2026-01-31T10:41:31 +2968ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:31 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:31 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:41:37 +5613ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:37 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:37 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:41:38 +1418ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:38 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:38 +1ms service=server status=completed duration=1 method=GET path=/global/health request
+INFO  2026-01-31T10:41:41 +2974ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:41 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:41 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:41:47 +5602ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:47 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:47 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:41:48 +1430ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:48 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:48 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:41:51 +2971ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:51 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:51 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:41:57 +5597ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:57 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:57 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:41:58 +1429ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:41:58 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:41:58 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:42:01 +2987ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:01 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:01 +1ms service=server status=completed duration=1 method=GET path=/global/health request
+INFO  2026-01-31T10:42:07 +5581ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:07 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:07 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:42:08 +1430ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:08 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:08 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:42:11 +2665ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:11 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:11 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:42:17 +5614ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:17 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:17 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:42:18 +1722ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:18 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:18 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:42:21 +2677ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:21 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:21 +1ms service=server status=completed duration=1 method=GET path=/global/health request
+INFO  2026-01-31T10:42:27 +5592ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:27 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:27 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:42:29 +2046ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:29 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:29 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:42:31 +2664ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:31 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:31 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:42:37 +5288ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:37 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:37 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:42:38 +1750ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:38 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:38 +1ms service=server status=completed duration=1 method=GET path=/global/health request
+INFO  2026-01-31T10:42:41 +2647ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:41 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:41 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:42:47 +5902ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:47 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:47 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:42:48 +1434ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:48 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:48 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:42:51 +2984ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:51 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:51 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:42:57 +5280ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:57 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:57 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:42:58 +1728ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:42:58 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:42:58 +1ms service=server status=completed duration=1 method=GET path=/global/health request
+INFO  2026-01-31T10:43:01 +2680ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:01 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:01 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:43:07 +5598ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:07 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:07 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:43:08 +1737ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:08 +1ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:08 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:43:11 +2663ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:11 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:11 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:43:17 +5590ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:17 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:17 +1ms service=server status=completed duration=1 method=GET path=/global/health request
+INFO  2026-01-31T10:43:18 +1741ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:18 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:18 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:43:21 +2659ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:21 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:21 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:43:27 +5602ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:27 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:27 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:43:28 +1733ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:28 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:28 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:43:31 +2666ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:31 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:31 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:43:37 +5602ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:37 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:37 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:43:38 +1741ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:38 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:38 +1ms service=server status=completed duration=1 method=GET path=/global/health request
+INFO  2026-01-31T10:43:41 +2656ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:41 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:41 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:43:47 +5601ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:47 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:47 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:43:48 +1733ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:48 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:48 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:43:51 +2663ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:51 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:51 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:43:57 +5599ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:57 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:57 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:43:58 +1732ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:43:58 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:43:58 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:44:01 +2676ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:44:01 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:44:01 +1ms service=server status=completed duration=1 method=GET path=/global/health request
+INFO  2026-01-31T10:44:07 +5599ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:44:07 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:44:07 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:44:08 +1726ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:44:08 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:44:08 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:44:11 +2678ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:44:11 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:44:11 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:44:17 +5595ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:44:17 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:44:17 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:44:18 +1731ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:44:18 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:44:18 +1ms service=server status=completed duration=1 method=GET path=/global/health request
+INFO  2026-01-31T10:44:21 +2678ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:44:21 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:44:21 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:44:27 +5589ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:44:27 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:44:27 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:44:28 +1728ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:44:28 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:44:28 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:44:31 +2674ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:44:31 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:44:31 +0ms service=server status=completed duration=0 method=GET path=/global/health request
+INFO  2026-01-31T10:44:37 +5595ms service=server method=GET path=/global/health request
+INFO  2026-01-31T10:44:37 +0ms service=server status=started method=GET path=/global/health request
+INFO  2026-01-31T10:44:37 +1ms service=server status=completed duration=1 method=GET path=/global/health request

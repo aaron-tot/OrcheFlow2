@@ -1,0 +1,272 @@
+$ cd ../.. && bun run --watch packages/backend/src/index.ts --watch packages/util/src --watch packages/plugin/src --watch packages/sdk/js/src
+[OpenCode] Mode: PRODUCTION
+[OpenCode] Platform: win32
+[OpenCode] Data directory: C:\Users\Aaron - Main\Desktop\orcheFlow_storage\data
+[OpenCode] Cache directory: C:\Users\Aaron - Main\Desktop\orcheFlow_storage\cache
+[OpenCode] Config directory: C:\Users\Aaron - Main\Desktop\orcheFlow_storage\config
+[OpenCode] State directory: C:\Users\Aaron - Main\Desktop\orcheFlow_storage\state
+[OpenCode] Mode: PRODUCTION
+[OpenCode] Platform: win32
+[OpenCode] Data directory: C:\Users\Aaron - Main\Desktop\orcheFlow_storage\data
+[OpenCode] Cache directory: C:\Users\Aaron - Main\Desktop\orcheFlow_storage\cache
+[OpenCode] Config directory: C:\Users\Aaron - Main\Desktop\orcheFlow_storage\config
+[OpenCode] State directory: C:\Users\Aaron - Main\Desktop\orcheFlow_storage\state
+[Backend] Starting server on 127.0.0.1:4002...
+🔧 Loading config from: C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\packages\backend\src\shared\config\mainConfig.json
+ERROR 2026-02-01T00:48:36 +7162ms service=server error= failed
+ERROR 2026-02-01T00:48:45 +9457ms service=server error= failed
+INFO  2026-02-01T00:48:56 +10767ms service=server method=POST path=/system/pick-directory request
+INFO  2026-02-01T00:48:56 +0ms service=server status=started method=POST path=/system/pick-directory request
+INFO  2026-02-01T00:48:56 +1ms service=default directory=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh creating instance
+INFO  2026-02-01T00:48:56 +0ms service=project directory=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh fromDirectory
+INFO  2026-02-01T00:48:56 +41ms service=default directory=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh bootstrapping
+INFO  2026-02-01T00:48:56 +2ms service=config path=C:\Users\Aaron - Main\Desktop\orcheFlow_storage\config\config.json loading
+INFO  2026-02-01T00:48:56 +1ms service=config path=C:\Users\Aaron - Main\Desktop\orcheFlow_storage\config\opencode.json loading
+INFO  2026-02-01T00:48:56 +0ms service=config path=C:\Users\Aaron - Main\Desktop\orcheFlow_storage\config\opencode.jsonc loading
+INFO  2026-02-01T00:48:56 +1ms service=config path=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\opencode.jsonc loading
+INFO  2026-02-01T00:48:56 +10ms service=config path=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\opencode.json loading
+INFO  2026-02-01T00:48:56 +3ms service=bun cmd=["C:\\Users\\Aaron - Main\\.bun\\bin\\bun.exe","add","@opencode-ai/plugin@latest","--exact"] cwd=C:\Users\Aaron - Main\Desktop\orcheFlow_storage\config running
+INFO  2026-02-01T00:48:56 +5ms service=config path=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\.opencode\opencode.jsonc loading
+INFO  2026-02-01T00:48:56 +1ms service=config path=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\.opencode\opencode.json loading
+INFO  2026-02-01T00:48:56 +1ms service=bun cmd=["C:\\Users\\Aaron - Main\\.bun\\bin\\bun.exe","add","@opencode-ai/plugin@latest","--exact"] cwd=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\.opencode running
+🔧 Loading config from: C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\packages\backend\src\shared\config\mainConfig.json
+INFO  2026-02-01T00:48:56 +17ms service=plugin name=CodexAuthPlugin loading internal plugin
+INFO  2026-02-01T00:48:56 +0ms service=plugin name=CopilotAuthPlugin loading internal plugin
+INFO  2026-02-01T00:48:56 +0ms service=plugin path=opencode-anthropic-auth@0.0.9 loading plugin
+INFO  2026-02-01T00:48:56 +13ms service=plugin path=@gitlab/opencode-gitlab-auth@1.3.0 loading plugin
+INFO  2026-02-01T00:48:56 +69ms service=bus type=* subscribing
+INFO  2026-02-01T00:48:56 +0ms service=bus type=session.updated subscribing
+INFO  2026-02-01T00:48:56 +0ms service=bus type=message.updated subscribing
+INFO  2026-02-01T00:48:56 +0ms service=bus type=message.part.updated subscribing
+INFO  2026-02-01T00:48:56 +0ms service=bus type=session.updated subscribing
+INFO  2026-02-01T00:48:56 +0ms service=bus type=message.updated subscribing
+INFO  2026-02-01T00:48:56 +0ms service=bus type=message.part.updated subscribing
+INFO  2026-02-01T00:48:56 +0ms service=bus type=session.diff subscribing
+INFO  2026-02-01T00:48:56 +0ms service=format init
+INFO  2026-02-01T00:48:56 +1ms service=bus type=file.edited subscribing
+INFO  2026-02-01T00:48:56 +0ms service=file.watcher init
+INFO  2026-02-01T00:48:56 +4ms service=scheduler id=snapshot.cleanup run
+INFO  2026-02-01T00:48:56 +0ms service=scheduler id=tool.truncation.cleanup run
+INFO  2026-02-01T00:48:56 +4ms service=file.watcher platform=win32 backend=windows watcher backend
+ERROR 2026-02-01T00:48:56 +1ms service=file.watcher error={"name":"ResolveMessage","position":null,"message":"Cannot find module '@parcel/watcher-win32-x64' from 'C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v5\\branches\\opencode-fresh\\packages\\backend\\src\\features\\files\\services\\watcher.ts'","level":"error","specifier":"@parcel/watcher-win32-x64","importKind":"require-call","referrer":"C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v5\\branches\\opencode-fresh\\packages\\backend\\src\\features\\files\\services\\watcher.ts"} failed to load watcher binding
+INFO  2026-02-01T00:48:56 +178ms service=vcs branch=fresh-start initialized
+INFO  2026-02-01T00:48:56 +0ms service=bus type=file.watcher.updated subscribing
+INFO  2026-02-01T00:48:57 +179ms service=bun code=0 stdout=bun add v1.3.6 (d530ed99)
+
+installed @opencode-ai/plugin@1.1.48
+
+[453.00ms] done
+ stderr=Resolving dependencies
+Resolved, downloaded and extracted [2]
+Saved lockfile
+ done
+INFO  2026-02-01T00:48:57 +0ms service=bun cmd=["C:\\Users\\Aaron - Main\\.bun\\bin\\bun.exe","install"] cwd=C:\Users\Aaron - Main\Desktop\orcheFlow_storage\config running
+INFO  2026-02-01T00:48:57 +5ms service=bun code=0 stdout=bun add v1.3.6 (d530ed99)
+
+installed @opencode-ai/plugin@1.1.48
+
+[449.00ms] done
+ stderr=Resolving dependencies
+Resolved, downloaded and extracted [2]
+Saved lockfile
+ done
+INFO  2026-02-01T00:48:57 +0ms service=bun cmd=["C:\\Users\\Aaron - Main\\.bun\\bin\\bun.exe","install"] cwd=C:\Users\Aaron - Main\Desktop\_OpenCode_MainWorkSpace\v5\branches\opencode-fresh\.opencode running
+INFO  2026-02-01T00:48:57 +25ms service=bun code=0 stdout=bun install v1.3.6 (d530ed99)
+
+Checked 3 installs across 4 packages (no changes) [8.00ms]
+ stderr= done
+INFO  2026-02-01T00:48:57 +9ms service=bun code=0 stdout=bun install v1.3.6 (d530ed99)
+
+Checked 3 installs across 4 packages (no changes) [14.00ms]
+ stderr= done
+INFO  2026-02-01T00:48:57 +483ms service=snapshot prune=7.days cleanup
+INFO  2026-02-01T00:49:02 +4664ms service=server status=completed duration=5718 method=POST path=/system/pick-directory request
+INFO  2026-02-01T00:57:04 +481827ms service=server method=POST path=/system/pick-directory request
+INFO  2026-02-01T00:57:04 +0ms service=server status=started method=POST path=/system/pick-directory request
+INFO  2026-02-01T00:57:18 +14377ms service=server status=completed duration=14377 method=POST path=/system/pick-directory request
+ERROR 2026-02-01T00:59:01 +103037ms service=server error= failed
+ERROR 2026-02-01T00:59:01 +2ms service=server error= failed
+ERROR 2026-02-01T00:59:01 +1ms service=server error= failed
+ERROR 2026-02-01T00:59:01 +195ms service=server error= failed
+ERROR 2026-02-01T00:59:01 +4ms service=server error= failed
+ERROR 2026-02-01T00:59:01 +1ms service=server error= failed
+ERROR 2026-02-01T00:59:01 +1ms service=server error= failed
+ERROR 2026-02-01T00:59:01 +0ms service=server error= failed
+ERROR 2026-02-01T00:59:01 +1ms service=server error= failed
+ERROR 2026-02-01T00:59:01 +1ms service=server error= failed
+ERROR 2026-02-01T00:59:02 +1339ms service=server error= failed
+ERROR 2026-02-01T00:59:02 +0ms service=server error= failed
+ERROR 2026-02-01T00:59:02 +0ms service=server error= failed
+ERROR 2026-02-01T00:59:02 +0ms service=server error= failed
+ERROR 2026-02-01T00:59:04 +1464ms service=server error= failed
+ERROR 2026-02-01T00:59:04 +545ms service=server error= failed
+ERROR 2026-02-01T00:59:04 +0ms service=server error= failed
+ERROR 2026-02-01T00:59:04 +0ms service=server error= failed
+ERROR 2026-02-01T00:59:04 +0ms service=server error= failed
+ERROR 2026-02-01T00:59:05 +419ms service=server error= failed
+ERROR 2026-02-01T00:59:05 +0ms service=server error= failed
+ERROR 2026-02-01T00:59:10 +5043ms service=server error= failed
+ERROR 2026-02-01T00:59:11 +968ms service=server error= failed
+ERROR 2026-02-01T00:59:15 +4302ms service=server error= failed
+ERROR 2026-02-01T00:59:21 +5699ms service=server error= failed
+ERROR 2026-02-01T00:59:22 +1036ms service=server error= failed
+ERROR 2026-02-01T00:59:25 +3270ms service=server error= failed
+ERROR 2026-02-01T00:59:31 +5693ms service=server error= failed
+ERROR 2026-02-01T00:59:35 +4304ms service=server error= failed
+ERROR 2026-02-01T00:59:41 +5698ms service=server error= failed
+ERROR 2026-02-01T00:59:45 +4306ms service=server error= failed
+ERROR 2026-02-01T00:59:46 +734ms service=server error= failed
+ERROR 2026-02-01T00:59:51 +4958ms service=server error= failed
+ERROR 2026-02-01T00:59:55 +4296ms service=server error= failed
+ERROR 2026-02-01T01:00:01 +5703ms service=server error= failed
+ERROR 2026-02-01T01:00:05 +3948ms service=server error= failed
+ERROR 2026-02-01T01:00:05 +47ms service=server error= failed
+ERROR 2026-02-01T01:00:11 +6007ms service=server error= failed
+ERROR 2026-02-01T01:00:15 +3945ms service=server error= failed
+ERROR 2026-02-01T01:00:15 +45ms service=server error= failed
+ERROR 2026-02-01T01:00:16 +1056ms service=server error= failed
+ERROR 2026-02-01T01:00:21 +4952ms service=server error= failed
+ERROR 2026-02-01T01:00:25 +3946ms service=server error= failed
+ERROR 2026-02-01T01:00:25 +47ms service=server error= failed
+ERROR 2026-02-01T01:00:31 +6008ms service=server error= failed
+ERROR 2026-02-01T01:00:35 +3994ms service=server error= failed
+ERROR 2026-02-01T01:00:41 +6006ms service=server error= failed
+ERROR 2026-02-01T01:00:45 +3993ms service=server error= failed
+ERROR 2026-02-01T01:00:46 +1060ms service=server error= failed
+ERROR 2026-02-01T01:00:51 +4947ms service=server error= failed
+ERROR 2026-02-01T01:00:55 +3995ms service=server error= failed
+ERROR 2026-02-01T01:01:01 +6006ms service=server error= failed
+ERROR 2026-02-01T01:01:05 +3993ms service=server error= failed
+ERROR 2026-02-01T01:01:11 +6005ms service=server error= failed
+ERROR 2026-02-01T01:01:15 +3994ms service=server error= failed
+ERROR 2026-02-01T01:01:16 +1068ms service=server error= failed
+ERROR 2026-02-01T01:01:21 +4939ms service=server error= failed
+ERROR 2026-02-01T01:01:25 +3996ms service=server error= failed
+ERROR 2026-02-01T01:01:31 +6004ms service=server error= failed
+ERROR 2026-02-01T01:01:35 +3993ms service=server error= failed
+ERROR 2026-02-01T01:01:41 +6006ms service=server error= failed
+ERROR 2026-02-01T01:01:45 +3994ms service=server error= failed
+ERROR 2026-02-01T01:01:46 +1072ms service=server error= failed
+ERROR 2026-02-01T01:01:51 +4933ms service=server error= failed
+ERROR 2026-02-01T01:01:55 +3995ms service=server error= failed
+ERROR 2026-02-01T01:02:01 +6006ms service=server error= failed
+ERROR 2026-02-01T01:02:05 +3995ms service=server error= failed
+ERROR 2026-02-01T01:02:11 +6005ms service=server error= failed
+ERROR 2026-02-01T01:02:15 +3996ms service=server error= failed
+ERROR 2026-02-01T01:02:16 +1076ms service=server error= failed
+ERROR 2026-02-01T01:02:21 +4929ms service=server error= failed
+ERROR 2026-02-01T01:02:25 +3996ms service=server error= failed
+ERROR 2026-02-01T01:02:31 +6005ms service=server error= failed
+ERROR 2026-02-01T01:02:35 +3995ms service=server error= failed
+ERROR 2026-02-01T01:02:41 +6004ms service=server error= failed
+ERROR 2026-02-01T01:02:45 +3994ms service=server error= failed
+ERROR 2026-02-01T01:02:46 +1084ms service=server error= failed
+ERROR 2026-02-01T01:02:51 +4924ms service=server error= failed
+ERROR 2026-02-01T01:02:55 +3993ms service=server error= failed
+ERROR 2026-02-01T01:03:01 +6006ms service=server error= failed
+ERROR 2026-02-01T01:03:05 +3992ms service=server error= failed
+ERROR 2026-02-01T01:03:11 +6007ms service=server error= failed
+ERROR 2026-02-01T01:03:15 +3995ms service=server error= failed
+ERROR 2026-02-01T01:03:16 +1090ms service=server error= failed
+ERROR 2026-02-01T01:03:21 +4915ms service=server error= failed
+ERROR 2026-02-01T01:03:25 +3990ms service=server error= failed
+ERROR 2026-02-01T01:03:31 +6010ms service=server error= failed
+ERROR 2026-02-01T01:03:35 +3993ms service=server error= failed
+ERROR 2026-02-01T01:03:41 +6007ms service=server error= failed
+ERROR 2026-02-01T01:03:45 +3995ms service=server error= failed
+ERROR 2026-02-01T01:03:46 +1105ms service=server error= failed
+ERROR 2026-02-01T01:03:51 +4899ms service=server error= failed
+ERROR 2026-02-01T01:03:55 +3994ms service=server error= failed
+ERROR 2026-02-01T01:04:01 +6008ms service=server error= failed
+ERROR 2026-02-01T01:04:05 +3992ms service=server error= failed
+ERROR 2026-02-01T01:04:11 +6006ms service=server error= failed
+ERROR 2026-02-01T01:04:15 +3993ms service=server error= failed
+ERROR 2026-02-01T01:04:16 +1119ms service=server error= failed
+ERROR 2026-02-01T01:04:21 +4890ms service=server error= failed
+ERROR 2026-02-01T01:04:25 +3993ms service=server error= failed
+ERROR 2026-02-01T01:04:31 +6005ms service=server error= failed
+ERROR 2026-02-01T01:04:35 +3994ms service=server error= failed
+ERROR 2026-02-01T01:04:41 +6007ms service=server error= failed
+ERROR 2026-02-01T01:04:45 +3996ms service=server error= failed
+ERROR 2026-02-01T01:04:46 +1125ms service=server error= failed
+ERROR 2026-02-01T01:04:51 +4879ms service=server error= failed
+ERROR 2026-02-01T01:04:55 +3994ms service=server error= failed
+ERROR 2026-02-01T01:05:01 +6009ms service=server error= failed
+ERROR 2026-02-01T01:05:05 +3991ms service=server error= failed
+ERROR 2026-02-01T01:05:11 +6010ms service=server error= failed
+ERROR 2026-02-01T01:05:15 +3989ms service=server error= failed
+ERROR 2026-02-01T01:05:16 +1139ms service=server error= failed
+ERROR 2026-02-01T01:05:21 +4872ms service=server error= failed
+ERROR 2026-02-01T01:05:25 +3990ms service=server error= failed
+ERROR 2026-02-01T01:05:31 +6009ms service=server error= failed
+ERROR 2026-02-01T01:05:35 +3987ms service=server error= failed
+ERROR 2026-02-01T01:05:41 +6011ms service=server error= failed
+ERROR 2026-02-01T01:05:45 +3992ms service=server error= failed
+ERROR 2026-02-01T01:05:46 +1148ms service=server error= failed
+ERROR 2026-02-01T01:05:51 +4864ms service=server error= failed
+ERROR 2026-02-01T01:05:55 +3989ms service=server error= failed
+ERROR 2026-02-01T01:06:01 +6010ms service=server error= failed
+ERROR 2026-02-01T01:06:05 +3996ms service=server error= failed
+ERROR 2026-02-01T01:06:07 +1817ms service=server error= failed
+ERROR 2026-02-01T01:06:07 +1ms service=server error= failed
+ERROR 2026-02-01T01:06:07 +0ms service=server error= failed
+ERROR 2026-02-01T01:06:07 +210ms service=server error= failed
+ERROR 2026-02-01T01:06:07 +1ms service=server error= failed
+ERROR 2026-02-01T01:06:07 +1ms service=server error= failed
+ERROR 2026-02-01T01:06:07 +1ms service=server error= failed
+ERROR 2026-02-01T01:06:07 +1ms service=server error= failed
+ERROR 2026-02-01T01:06:07 +1ms service=server error= failed
+ERROR 2026-02-01T01:06:07 +1ms service=server error= failed
+ERROR 2026-02-01T01:06:08 +1042ms service=server error= failed
+ERROR 2026-02-01T01:06:08 +1ms service=server error= failed
+ERROR 2026-02-01T01:06:08 +1ms service=server error= failed
+ERROR 2026-02-01T01:06:08 +0ms service=server error= failed
+ERROR 2026-02-01T01:06:10 +1806ms service=server error= failed
+ERROR 2026-02-01T01:06:10 +199ms service=server error= failed
+ERROR 2026-02-01T01:06:10 +0ms service=server error= failed
+ERROR 2026-02-01T01:06:10 +1ms service=server error= failed
+ERROR 2026-02-01T01:06:10 +0ms service=server error= failed
+ERROR 2026-02-01T01:06:10 +90ms service=server error= failed
+ERROR 2026-02-01T01:06:10 +0ms service=server error= failed
+ERROR 2026-02-01T01:06:16 +5714ms service=server error= failed
+ERROR 2026-02-01T01:06:17 +930ms service=server error= failed
+ERROR 2026-02-01T01:06:20 +3362ms service=server error= failed
+ERROR 2026-02-01T01:06:27 +6641ms service=server error= failed
+ERROR 2026-02-01T01:06:28 +1072ms service=server error= failed
+ERROR 2026-02-01T01:06:30 +2283ms service=server error= failed
+ERROR 2026-02-01T01:06:37 +6654ms service=server error= failed
+ERROR 2026-02-01T01:06:45 +8214ms service=server error= failed
+ERROR 2026-02-01T01:06:45 +1ms service=server error= failed
+ERROR 2026-02-01T01:06:45 +6ms service=server error= failed
+ERROR 2026-02-01T01:06:45 +91ms service=server error= failed
+ERROR 2026-02-01T01:06:45 +4ms service=server error= failed
+ERROR 2026-02-01T01:06:45 +1ms service=server error= failed
+ERROR 2026-02-01T01:06:45 +0ms service=server error= failed
+ERROR 2026-02-01T01:06:45 +0ms service=server error= failed
+ERROR 2026-02-01T01:06:45 +0ms service=server error= failed
+ERROR 2026-02-01T01:06:45 +0ms service=server error= failed
+ERROR 2026-02-01T01:06:46 +1025ms service=server error= failed
+ERROR 2026-02-01T01:06:46 +1ms service=server error= failed
+ERROR 2026-02-01T01:06:46 +0ms service=server error= failed
+ERROR 2026-02-01T01:06:46 +0ms service=server error= failed
+ERROR 2026-02-01T01:06:48 +1901ms service=server error= failed
+ERROR 2026-02-01T01:06:48 +117ms service=server error= failed
+ERROR 2026-02-01T01:06:48 +1ms service=server error= failed
+ERROR 2026-02-01T01:06:48 +0ms service=server error= failed
+ERROR 2026-02-01T01:06:48 +0ms service=server error= failed
+ERROR 2026-02-01T01:06:49 +835ms service=server error= failed
+ERROR 2026-02-01T01:06:49 +1ms service=server error= failed
+ERROR 2026-02-01T01:06:54 +5067ms service=server error= failed
+ERROR 2026-02-01T01:06:55 +957ms service=server error= failed
+ERROR 2026-02-01T01:06:59 +3989ms service=server error= failed
+ERROR 2026-02-01T01:07:05 +6003ms service=server error= failed
+ERROR 2026-02-01T01:07:06 +1063ms service=server error= failed
+ERROR 2026-02-01T01:07:09 +2933ms service=server error= failed
+ERROR 2026-02-01T01:07:15 +6007ms service=server error= failed
+ERROR 2026-02-01T01:07:19 +3981ms service=server error= failed
+ERROR 2026-02-01T01:07:25 +6020ms service=server error= failed
+ERROR 2026-02-01T01:07:29 +3979ms service=server error= failed
+ERROR 2026-02-01T01:07:30 +1088ms service=server error= failed
+ERROR 2026-02-01T01:07:35 +4940ms service=server error= failed
+ERROR 2026-02-01T01:07:39 +3983ms service=server error= failed
+error: script "dev" exited with code 1
