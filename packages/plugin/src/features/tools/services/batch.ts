@@ -1,6 +1,6 @@
 import z from "zod"
 import { Tool } from "../domain/Tool"
-import DESCRIPTION from "./batch.txt"
+import DESCRIPTION from "../../../../backend/src/shared/prompts/tools/batch.txt"
 
 const DISALLOWED = new Set(["batch"])
 const FILTERED_FROM_SUGGESTIONS = new Set(["invalid", "patch", ...DISALLOWED])

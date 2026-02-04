@@ -7,19 +7,28 @@ import type { LanguageModelV2 } from "@openrouter/ai-sdk-provider"
 import { Log } from "../../../shared/utils/log"
 
 // Import from new modules
-import type { Model, Info } from "../domain/Provider"
-export type { Model, Info } from "../domain/Provider"
+import { Model as ModelSchema, Info as InfoSchema } from "../domain/Provider"
+import type { Model as ModelType, Info as InfoType } from "../domain/Provider"
 import { ModelNotFoundError, InitError } from "../domain/ProviderErrors"
-import { state } from "./ProviderInitialization"
+import { state, fromModelsDevProvider as convertModelsDevProvider } from "./ProviderInitialization"
 import * as ProviderSDK from "./ProviderSDK"
 import * as ProviderUtils from "./ProviderUtils"
 
 export namespace Provider {
   const log = Log.create({ service: "provider" })
 
+  // Re-export types and schemas
+  export type Model = ModelType
+  export type Info = InfoType
+  export const Model = ModelSchema
+  export const Info = InfoSchema
+  
   // Re-export errors
   export const ModelNotFoundError = ModelNotFoundError
   export const InitError = InitError
+  
+  // Re-export utility functions
+  export const fromModelsDevProvider = convertModelsDevProvider
 
   export async function list() {
     return state().then((state) => state.providers)

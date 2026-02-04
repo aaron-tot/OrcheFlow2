@@ -90,7 +90,7 @@ function fromModelsDevModel(provider: ModelsDev.Provider, model: ModelsDev.Model
   return m
 }
 
-function fromModelsDevProvider(provider: ModelsDev.Provider): Info {
+export function fromModelsDevProvider(provider: ModelsDev.Provider): Info {
   return {
     id: provider.id,
     source: "custom",

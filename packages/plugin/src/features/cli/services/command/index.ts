@@ -3,8 +3,8 @@ import z from "zod"
 import { Config } from "../../../../shared/config/config"
 import { Instance } from "../../../../core/instance"
 import { Identifier } from "../../../../shared/utils/id/id"
-import PROMPT_INITIALIZE from "./template/initialize.txt"
-import PROMPT_REVIEW from "./template/review.txt"
+import PROMPT_INITIALIZE from "../../../../../backend/src/shared/prompts/cli/initialize.txt"
+import PROMPT_REVIEW from "../../../../../backend/src/shared/prompts/cli/review.txt"
 import { MCP } from "../../../mcp/services"
 
 export namespace Command {
