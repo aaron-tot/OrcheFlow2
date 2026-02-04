@@ -50,15 +50,19 @@ export namespace LLM {
     return sessionDir
   }
 
-  // Custom JSON serializer that normalizes line endings in strings
+  // Custom JSON serializer that normalizes line endings and makes strings readable
   function prettyJSON(data: any): string {
-    return JSON.stringify(data, (key, value) => {
+    const json = JSON.stringify(data, (key, value) => {
       if (typeof value === 'string') {
         // Normalize Windows line endings to Unix
         return value.replace(/\r\n/g, '\n')
       }
       return value
     }, 2)
+    
+    // Replace escaped newlines with actual newlines for readability
+    // This makes multi-line strings in the JSON more readable while keeping valid JSON
+    return json.replace(/\\n/g, '\n')
   }
 
   async function logRequest(sessionID: string, data: any): Promise<void> {
