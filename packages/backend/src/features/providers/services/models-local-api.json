@@ -305,10 +305,10 @@
         },
         "options": {}
       },
-      "dolphin3:latest-custom": {
-        "id": "dolphin3:latest-custom",
-        "name": "dolphin3:latest-custom",
-        "family": "llama",
+      "gpt-oss:20b-custom": {
+        "id": "gpt-oss:20b-custom",
+        "name": "gpt-oss:20b-custom",
+        "family": "gptoss",
         "release_date": "2025-09-10",
         "attachment": false,
         "reasoning": false,
@@ -328,10 +328,10 @@
         },
         "options": {}
       },
-      "gpt-oss:20b-custom": {
-        "id": "gpt-oss:20b-custom",
-        "name": "gpt-oss:20b-custom",
-        "family": "gptoss",
+      "dolphin3:latest-custom": {
+        "id": "dolphin3:latest-custom",
+        "name": "dolphin3:latest-custom",
+        "family": "llama",
         "release_date": "2025-09-10",
         "attachment": false,
         "reasoning": false,

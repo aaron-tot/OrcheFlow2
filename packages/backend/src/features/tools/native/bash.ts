@@ -40,14 +40,19 @@ const parser = lazy(async () => {
       return treePath
     },
   })
-  const { default: bashWasm } = await import("tree-sitter-bash/tree-sitter-bash.wasm" as string, {
-    with: { type: "wasm" },
-  })
-  const bashPath = resolveWasm(bashWasm)
-  const bashLanguage = await Language.load(bashPath)
-  const p = new Parser()
-  p.setLanguage(bashLanguage)
-  return p
+  try {
+    const { default: bashWasm } = await import("tree-sitter-bash/tree-sitter-bash.wasm" as string, {
+      with: { type: "wasm" },
+    })
+    const bashPath = resolveWasm(bashWasm)
+    const bashLanguage = await Language.load(bashPath)
+    const p = new Parser()
+    p.setLanguage(bashLanguage)
+    return p
+  } catch (error) {
+    log.warn("Failed to load tree-sitter-bash, bash parsing disabled:", error)
+    return null
+  }
 })
 
 // TODO: we may wanna rename this tool so it works better on other shells
@@ -80,19 +85,22 @@ export const BashTool = Tool.define("bash", async () => {
         throw new Error(`Invalid timeout value: ${params.timeout}. Timeout must be a positive number.`)
       }
       const timeout = params.timeout ?? DEFAULT_TIMEOUT
-      const tree = await parser().then((p) => p.parse(params.command))
-      if (!tree) {
-        throw new Error("Failed to parse command")
+      const p = await parser()
+      if (!p) {
+        log.warn("Bash parser not available, skipping command parsing")
+        // Continue without parsing
       }
+      const tree = p ? p.parse(params.command) : null
       const directories = new Set<string>()
       if (!Instance.containsPath(cwd)) directories.add(cwd)
       const patterns = new Set<string>()
       const always = new Set<string>()
 
-      for (const node of tree.rootNode.descendantsOfType("command")) {
-        if (!node) continue
-        const command = []
-        for (let i = 0; i < node.childCount; i++) {
+      if (tree) {
+        for (const node of tree.rootNode.descendantsOfType("command")) {
+          if (!node) continue
+          const command = []
+          for (let i = 0; i < node.childCount; i++) {
           const child = node.child(i)
           if (!child) continue
           if (
@@ -134,6 +142,7 @@ export const BashTool = Tool.define("bash", async () => {
           patterns.add(command.join(" "))
           always.add(BashArity.prefix(command).join(" ") + "*")
         }
+      }
       }
 
       if (directories.size > 0) {
