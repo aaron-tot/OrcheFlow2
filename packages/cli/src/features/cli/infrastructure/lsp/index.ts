@@ -222,7 +222,7 @@ export namespace LSP {
     }
 
     for (const server of Object.values(s.servers)) {
-      if (server.extensions?.length && !server.extensions.includes(extension)) continue
+      if (server.extensions.length && !server.extensions.includes(extension)) continue
 
       const root = await server.root(file)
       if (!root) continue
@@ -265,7 +265,7 @@ export namespace LSP {
     const s = await state()
     const extension = path.parse(file).ext || file
     for (const server of Object.values(s.servers)) {
-      if (server.extensions?.length && !server.extensions.includes(extension)) continue
+      if (server.extensions.length && !server.extensions.includes(extension)) continue
       const root = await server.root(file)
       if (!root) continue
       if (s.broken.has(root + server.id)) continue
