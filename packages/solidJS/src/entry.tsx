@@ -96,15 +96,11 @@ const platform: Platform = {
     try {
       const multiple = opts?.multiple ?? false
       
-      // Get the backend URL (could be custom or default localhost:4001)
-      const serverUrl = platform.getDefaultServerUrl?.() || "http://localhost:4001"
-      console.log("[DEBUG] Using server URL:", serverUrl)
-      
       // Get auth credentials from localStorage if available
       const password = localStorage.getItem("opencode.settings.dat:serverPassword") || ""
       console.log("[DEBUG] Password length:", password.length)
       
-      const response = await fetch(`${serverUrl}/system/pick-directory`, {
+      const response = await fetch(`/system/pick-directory`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

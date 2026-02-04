@@ -4,8 +4,12 @@
  */
 import { Server } from './app/server'
 import { Provider } from './features/providers/services/provider'
+import path from 'path'
 
-const port = process.env.PORT ? parseInt(process.env.PORT) : 4003
+// Read port from root config.json
+const configPath = path.join(process.cwd(), 'config.json')
+const config = await Bun.file(configPath).json()
+const port = process.env.PORT ? parseInt(process.env.PORT) : config.ports.backend
 const hostname = process.env.HOST || '127.0.0.1'
 
 console.log(`[Backend] Starting server on ${hostname}:${port}...`)
