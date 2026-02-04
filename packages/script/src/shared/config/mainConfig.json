@@ -1,0 +1,12 @@
+{
+  "environments": {
+    "development": {
+      "backendPort": 3001,
+      "frontendPort": 3000
+    },
+    "production": {
+      "backendPort": 8001,
+      "frontendPort": 8000
+    }
+  }
+}

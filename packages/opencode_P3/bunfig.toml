@@ -1,7 +1,0 @@
-# No preloads for web-only server
-# @opentui/solid is only needed for TUI (terminal UI) which is disabled
-
-[test]
-timeout = 10000  # 10 seconds (default is 5000ms)
-# Enable code coverage
-coverage = true

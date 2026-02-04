@@ -1,0 +1,52 @@
+Use this tool to update the session title when the conversation topic changes significantly.
+
+## When to Use This Tool
+
+You should use this tool proactively when:
+
+1. **Topic Shift**: The conversation has moved to a completely different topic than what the title suggests
+2. **User Request**: The user explicitly asks to rename/retitle the session
+3. **Better Context**: You've gathered enough information to create a more accurate title than the default
+4. **Generic Title**: The session still has a default/generic title (e.g., "New session - 2024-01-21T...") and you now understand what the user wants
+5. **Misleading Title**: The current title no longer represents the main focus of the conversation
+
+## When NOT to Use This Tool
+
+Skip using this tool when:
+1. The current title is still accurate and relevant
+2. The conversation is a natural continuation of the existing topic
+3. Only minor clarifications or follow-ups are being discussed
+4. The title was recently updated and still applies
+
+## Title Guidelines
+
+When creating a new title:
+- Keep it under 50 characters
+- Be specific and descriptive
+- Focus on the main action or goal
+- Use present tense or gerunds (e.g., "Implementing authentication", "Debug production errors")
+- Avoid generic words like "the", "my", "a"
+- Include technical terms, file names, or specific technologies when relevant
+- Don't mention tool names (e.g., don't say "using bash tool")
+
+## Examples
+
+Good titles:
+- "OpenCode retitle tool implementation"
+- "Debug React rendering performance"
+- "Add authentication to API endpoints"
+- "Refactor database connection logic"
+- "Fix TypeScript type errors in auth.ts"
+
+Bad titles:
+- "Coding" (too vague)
+- "The user wants to fix the bug" (includes unnecessary words)
+- "Using the edit tool to modify files" (mentions tool names)
+- "Help me with my code" (too generic)
+
+## Important Notes
+
+- Only call this tool once per significant topic change
+- Don't retitle for every single message - only when the topic fundamentally shifts
+- The title should reflect the PRIMARY focus of the conversation
+- If multiple topics are discussed, focus on the most important or recent one

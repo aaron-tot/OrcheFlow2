@@ -20,7 +20,7 @@ import { useGlobalSync } from "@/context/global-sync"
 import { usePlatform } from "@/context/platform"
 import { useServer } from "@/context/server"
 import { DialogSelectModel } from "./dialog-select-model"
-import { DialogSelectProvider } from "./dialog-select-provider"
+import { DialogSelectProvider } from "@/components/dialog-select-provider"
 
 export function DialogConnectProvider(props: { provider: string }) {
   const dialog = useDialog()

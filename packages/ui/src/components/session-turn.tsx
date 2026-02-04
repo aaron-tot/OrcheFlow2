@@ -400,6 +400,26 @@ export function SessionTurn(
     return locale.startsWith("zh") ? human.replaceAll("、", "") : human
   }
 
+  const messageStats = createMemo(() => {
+    const msg = lastAssistantMessage()
+    if (!msg) return { provider: "", model: "", inputTokens: 0, outputTokens: 0, cost: 0 }
+    
+    return {
+      provider: msg.providerID || "",
+      model: msg.modelID || "",
+      inputTokens: msg.tokens?.input || 0,
+      outputTokens: msg.tokens?.output || 0,
+      cost: msg.cost || 0
+    }
+  })
+
+  function formatCost(cost: number): string {
+    if (cost === 0) return ""
+    if (cost < 0.0001) return "<$0.0001"
+    if (cost < 0.01) return `$${cost.toFixed(4)}`
+    return `$${cost.toFixed(3)}`
+  }
+
   const autoScroll = createAutoScroll({
     working,
     onUserInteracted: props.onUserInteracted,
@@ -609,6 +629,48 @@ export function SessionTurn(
                             </Switch>
                             <span aria-hidden="true">·</span>
                             <span aria-live="off">{store.duration}</span>
+                            
+                            {/* Provider */}
+                            <Show when={messageStats().provider}>
+                              <>
+                                <span aria-hidden="true">·</span>
+                                <span data-slot="session-turn-provider">{messageStats().provider}</span>
+                              </>
+                            </Show>
+                            
+                            {/* Model */}
+                            <Show when={messageStats().model}>
+                              <>
+                                <span aria-hidden="true">·</span>
+                                <span data-slot="session-turn-model">{messageStats().model}</span>
+                              </>
+                            </Show>
+                            
+                            {/* Token counts */}
+                            <Show when={messageStats().inputTokens > 0 || messageStats().outputTokens > 0}>
+                              <>
+                                <span aria-hidden="true">·</span>
+                                <span 
+                                  data-slot="session-turn-tokens" 
+                                  style="font-family: monospace; font-size: 0.9em;"
+                                >
+                                  {messageStats().inputTokens.toLocaleString()} in · {messageStats().outputTokens.toLocaleString()} out
+                                </span>
+                              </>
+                            </Show>
+                            
+                            {/* Cost */}
+                            <Show when={formatCost(messageStats().cost)}>
+                              <>
+                                <span aria-hidden="true">·</span>
+                                <span 
+                                  data-slot="session-turn-cost" 
+                                  style="color: var(--color-success-base); font-family: monospace; font-size: 0.9em;"
+                                >
+                                  {formatCost(messageStats().cost)}
+                                </span>
+                              </>
+                            </Show>
                           </Button>
                         </div>
                       </Show>
@@ -648,6 +710,54 @@ export function SessionTurn(
                       <div data-slot="session-turn-summary-section">
                         <div data-slot="session-turn-summary-header">
                           <h2 data-slot="session-turn-summary-title">{i18n.t("ui.sessionTurn.summary.response")}</h2>
+                          
+                          {/* Stats display for single-step responses */}
+                          <Show when={messageStats().provider || messageStats().model || messageStats().inputTokens > 0}>
+                            <div 
+                              data-slot="session-turn-summary-stats"
+                              style="display: flex; gap: 8px; align-items: center; font-size: 0.75rem; color: var(--color-text-weaker); margin-top: 4px;"
+                            >
+                              {/* Duration */}
+                              <span>{store.duration}</span>
+                              
+                              {/* Provider */}
+                              <Show when={messageStats().provider}>
+                                <>
+                                  <span aria-hidden="true">·</span>
+                                  <span>{messageStats().provider}</span>
+                                </>
+                              </Show>
+                              
+                              {/* Model */}
+                              <Show when={messageStats().model}>
+                                <>
+                                  <span aria-hidden="true">·</span>
+                                  <span>{messageStats().model}</span>
+                                </>
+                              </Show>
+                              
+                              {/* Token counts */}
+                              <Show when={messageStats().inputTokens > 0 || messageStats().outputTokens > 0}>
+                                <>
+                                  <span aria-hidden="true">·</span>
+                                  <span style="font-family: monospace;">
+                                    {messageStats().inputTokens.toLocaleString()} in · {messageStats().outputTokens.toLocaleString()} out
+                                  </span>
+                                </>
+                              </Show>
+                              
+                              {/* Cost */}
+                              <Show when={formatCost(messageStats().cost)}>
+                                <>
+                                  <span aria-hidden="true">·</span>
+                                  <span style="color: var(--color-success-base); font-family: monospace;">
+                                    {formatCost(messageStats().cost)}
+                                  </span>
+                                </>
+                              </Show>
+                            </div>
+                          </Show>
+                          
                           <div data-slot="session-turn-response">
                             <Markdown
                               data-slot="session-turn-markdown"

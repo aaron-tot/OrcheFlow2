@@ -1,8 +1,16 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "@tsconfig/bun/tsconfig.json",
+  "extends": "./node_modules/@tsconfig/bun/tsconfig.json",
   "compilerOptions": {
+    "jsx": "react-jsx",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "noUncheckedIndexedAccess": false
+    "types": [],
+    "noUncheckedIndexedAccess": false,
+    "moduleResolution": "bundler",
+    "customConditions": ["browser"],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@tui/*": ["./src/cli/cmd/tui/*"]
+    }
   }
 }

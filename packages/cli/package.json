@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "@opencode-ai/cli",
+  "version": "1.1.45",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "start": "bun run src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "bin": {
+    "opencode": "./bin/opencode"
+  },
+  "exports": {
+    "./*": "./src/*.ts"
+  },
+  "dependencies": {
+    "@clack/prompts": "1.0.0-alpha.1",
+    "@opencode-ai/backend": "workspace:*",
+    "@opencode-ai/plugin": "workspace:*",
+    "@opencode-ai/util": "workspace:*",
+    "@opentui/core": "0.1.74",
+    "@solid-primitives/event-bus": "1.1.2",
+    "bun-pty": "0.4.4",
+    "clipboardy": "4.0.0",
+    "open": "10.1.2",
+    "opentui-spinner": "0.0.6",
+    "solid-js": "catalog:",
+    "tree-sitter-bash": "0.25.0",
+    "web-tree-sitter": "0.25.10",
+    "yargs": "18.0.0",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@types/bun": "catalog:",
+    "@types/yargs": "17.0.33",
+    "typescript": "catalog:"
+  }
+}

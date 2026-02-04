@@ -5,13 +5,15 @@
   "type": "module",
   "license": "MIT",
   "exports": {
+    ".": "./src/index.ts",
     "./*": "./src/*.ts"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "zod": "catalog:"
+    "zod": "catalog:",
+    "remeda": "catalog:"
   },
   "devDependencies": {
     "typescript": "catalog:",
