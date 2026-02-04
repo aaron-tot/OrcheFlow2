@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-02-04T00:29:42.436Z",
+  "sessionID": "ses_3d9f9478dffeVaf4BEOeHW5Iem",
+  "text": "
+",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 17634,
+    "outputTokens": 28,
+    "totalTokens": 17662,
+    "reasoningTokens": 1,
+    "cachedInputTokens": 17623
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_19ee0c26c3c848b793e8e24c",
+      "toolName": "bash",
+      "input": {
+        "command": "pwd",
+        "description": "Show current working directory"
+      }
+    }
+  ],
+  "toolResults": []
+}

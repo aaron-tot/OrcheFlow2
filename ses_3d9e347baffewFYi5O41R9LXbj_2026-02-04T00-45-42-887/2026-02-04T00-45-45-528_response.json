@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-02-04T00:45:45.528Z",
+  "sessionID": "ses_3d9e347baffewFYi5O41R9LXbj",
+  "text": "
+Hello! How can I help you today?",
+  "finishReason": "stop",
+  "usage": {
+    "inputTokens": 14134,
+    "outputTokens": 14,
+    "totalTokens": 14148,
+    "reasoningTokens": 1,
+    "cachedInputTokens": 62
+  },
+  "toolCalls": [],
+  "toolResults": []
+}

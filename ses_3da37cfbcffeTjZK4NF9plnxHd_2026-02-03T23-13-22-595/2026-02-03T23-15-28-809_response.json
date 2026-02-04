@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-02-03T23:15:28.808Z",
+  "sessionID": "ses_3da37cfbcffeTjZK4NF9plnxHd",
+  "text": "",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 8011,
+    "outputTokens": 440,
+    "totalTokens": 8451
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_sadtlci8",
+      "toolName": "glob",
+      "input": {
+        "pattern": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devmain\\*"
+      }
+    },
+    {
+      "type": "tool-call",
+      "toolCallId": "call_vgi5cwtp",
+      "toolName": "glob",
+      "input": {
+        "pattern": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v5\\branches\\devmain\\*"
+      }
+    }
+  ],
+  "toolResults": [
+    {
+      "type": "tool-result",
+      "toolCallId": "call_sadtlci8",
+      "toolName": "glob",
+      "input": {
+        "pattern": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devmain\\*"
+      },
+      "output": {
+        "title": "",
+        "metadata": {
+          "count": 0,
+          "truncated": false
+        },
+        "output": "No files found"
+      }
+    },
+    {
+      "type": "tool-result",
+      "toolCallId": "call_vgi5cwtp",
+      "toolName": "glob",
+      "input": {
+        "pattern": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v5\\branches\\devmain\\*"
+      },
+      "output": {
+        "title": "",
+        "metadata": {
+          "count": 0,
+          "truncated": false
+        },
+        "output": "No files found"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-02-03T22:52:32.868Z",
+  "sessionID": "ses_3da4b2508ffeZSOicRCofSLB3h",
+  "text": "",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 8011,
+    "outputTokens": 230,
+    "totalTokens": 8241
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_omcqrcxr",
+      "toolName": "glob",
+      "input": {
+        "path": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devmain",
+        "pattern": "**/*"
+      }
+    },
+    {
+      "type": "tool-call",
+      "toolCallId": "call_j0g975zh",
+      "toolName": "glob",
+      "input": {
+        "path": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v5\\branches\\devmain",
+        "pattern": "**/*"
+      }
+    }
+  ],
+  "toolResults": []
+}

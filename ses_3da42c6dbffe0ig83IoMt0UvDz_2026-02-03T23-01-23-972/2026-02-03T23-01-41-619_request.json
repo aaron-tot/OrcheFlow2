@@ -1,0 +1,151 @@
+{
+  "timestamp": "2026-02-03T23:01:41.619Z",
+  "sessionID": "ses_3da42c6dbffe0ig83IoMt0UvDz",
+  "modelID": "qwen3:8b",
+  "providerID": "ollama-local",
+  "agent": "build",
+  "system": [
+    "You are an expert AI programming assistant working in the VS Code editor.
+
+CRITICAL TOOL USAGE RULES:
+- ALWAYS use tools to gather information before answering
+- NEVER say \"I cannot access\" or \"I cannot see\" - USE TOOLS FIRST
+- NEVER make assumptions about file contents - use read_file
+- NEVER guess at code structure - use grep_search or semantic_search
+- NEVER assume file locations - use file_search
+- When user mentions paths/directories - use list_dir to check them immediately
+- When user asks \"can you see this?\" - YES, use tools to see it
+- When editing code, ALWAYS read the surrounding context first
+- Use multiple tools in parallel when gathering independent information
+- Continue using tools until you have complete information
+
+YOUR CAPABILITIES:
+- You CAN access the file system via list_dir, read_file, file_search
+- You CAN see directory contents by using list_dir
+- You CAN read any file the user references
+- You SHOULD use these tools proactively, not reactively
+
+Your primary directive is to be thorough and methodical:
+1. When user provides paths/mentions files -> USE TOOLS IMMEDIATELY
+2. Search/read files to understand the codebase
+3. Use tools to validate your understanding
+4. Only then provide solutions or make changes
+
+NEVER EVER say:
+❌ \"I cannot directly access your file system\"
+❌ \"I cannot see the contents\"
+❌ \"I don't have access to those directories\"
+
+INSTEAD:
+✅ Use list_dir on the paths they mention
+✅ Use read_file on files they reference
+✅ Report what you actually found
+
+Follow the user's requirements carefully and to the letter.
+Keep responses concise but ensure all tool calls are made to gather necessary context.
+If you're unsure about something, use tools to find out - never guess.
+
+When making changes:
+- Read the file first to understand context
+- Make targeted, precise edits
+- Verify your changes align with the codebase patterns
+
+Be proactive with tool usage - it's better to make extra tool calls than to provide incomplete or incorrect solutions.
+
+Remember: You are NOT limited by file system access. You HAVE tools. USE THEM.
+
+Here is some useful information about the environment you are running in:
+<env>
+  Working directory: /
+  Is directory a git repo: no
+  Platform: win32
+  Today's date: Tue Feb 03 2026
+</env>
+<files>
+  
+</files>"
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devmain
+C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v5\\branches\\devmain
+
+
+can you see this?"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "reasoning",
+          "text": "Okay, the user provided two file paths and asked if I can see them. Let me check the paths.
+
+First path: C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devmain
+Second path: C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v5\\branches\\devmain
+
+I need to verify if these directories exist. Since I can't access the file system directly, I should use the Bash tool to check. Let me run 'ls' on both paths to see if they exist and list their contents. That way, I can inform the user about the existence and contents of these directories."
+        },
+        {
+          "type": "tool-call",
+          "toolCallId": "call_wrh3f8i1",
+          "toolName": "bash",
+          "input": {
+            "command": "ls -la \"C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devmain\" && ls -la \"C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v5\\branches\\devmain\"",
+            "format": "text"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": [
+        {
+          "type": "tool-result",
+          "toolCallId": "call_wrh3f8i1",
+          "toolName": "bash",
+          "output": {
+            "type": "error-text",
+            "value": "Error: The bash tool was called with invalid arguments: [
+  {
+    \"expected\": \"string\",
+    \"code\": \"invalid_type\",
+    \"path\": [
+      \"description\"
+    ],
+    \"message\": \"Invalid input: expected string, received undefined\"
+  }
+].
+Please rewrite the input so it satisfies the expected schema."
+          }
+        }
+      ]
+    }
+  ],
+  "tools": [
+    "invalid",
+    "question",
+    "bash",
+    "read",
+    "glob",
+    "grep",
+    "edit",
+    "write",
+    "task",
+    "webfetch",
+    "todowrite",
+    "todoread",
+    "skill",
+    "retitle"
+  ],
+  "params": {
+    "temperature": 0.55,
+    "topP": 1,
+    "maxOutputTokens": 8192
+  }
+}

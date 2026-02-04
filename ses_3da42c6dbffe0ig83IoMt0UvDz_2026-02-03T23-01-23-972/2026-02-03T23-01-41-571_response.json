@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-02-03T23:01:41.571Z",
+  "sessionID": "ses_3da42c6dbffe0ig83IoMt0UvDz",
+  "text": "",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 8011,
+    "outputTokens": 222,
+    "totalTokens": 8233
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_wrh3f8i1",
+      "toolName": "bash",
+      "input": {
+        "command": "ls -la \"C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devmain\" && ls -la \"C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v5\\branches\\devmain\"",
+        "format": "text"
+      }
+    }
+  ],
+  "toolResults": []
+}

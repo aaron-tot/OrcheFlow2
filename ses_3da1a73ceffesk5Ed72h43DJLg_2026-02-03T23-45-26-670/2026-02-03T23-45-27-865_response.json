@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-02-03T23:45:27.865Z",
+  "sessionID": "ses_3da1a73ceffesk5Ed72h43DJLg",
+  "text": "Greeting and quick check-in",
+  "finishReason": "stop",
+  "usage": {
+    "inputTokens": 510,
+    "outputTokens": 11,
+    "totalTokens": 521,
+    "reasoningTokens": 0,
+    "cachedInputTokens": 0
+  },
+  "toolCalls": [],
+  "toolResults": []
+}

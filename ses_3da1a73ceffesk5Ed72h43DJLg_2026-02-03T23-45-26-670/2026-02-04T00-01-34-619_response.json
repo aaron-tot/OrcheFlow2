@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-02-04T00:01:34.619Z",
+  "sessionID": "ses_3da1a73ceffesk5Ed72h43DJLg",
+  "text": "
+",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 17510,
+    "outputTokens": 41,
+    "totalTokens": 17551,
+    "reasoningTokens": 1,
+    "cachedInputTokens": 17500
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_59f80277590c4fd888ae1dde",
+      "toolName": "glob",
+      "input": {
+        "pattern": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devMerge\\**\\*"
+      }
+    }
+  ],
+  "toolResults": [
+    {
+      "type": "tool-result",
+      "toolCallId": "call_59f80277590c4fd888ae1dde",
+      "toolName": "glob",
+      "input": {
+        "pattern": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devMerge\\**\\*"
+      },
+      "output": {
+        "title": "",
+        "metadata": {
+          "count": 0,
+          "truncated": false
+        },
+        "output": "No files found"
+      }
+    }
+  ]
+}

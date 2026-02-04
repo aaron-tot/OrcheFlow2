@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-02-04T00:27:00.897Z",
+  "sessionID": "ses_3d9f6fd1cffeTUhUQyIxqASmuF",
+  "text": "Directory listing request: list folders in dir",
+  "finishReason": "stop",
+  "usage": {
+    "inputTokens": 528,
+    "outputTokens": 14,
+    "totalTokens": 542,
+    "reasoningTokens": 0,
+    "cachedInputTokens": 0
+  },
+  "toolCalls": [],
+  "toolResults": []
+}

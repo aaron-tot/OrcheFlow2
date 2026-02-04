@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-02-04T00:26:50.529Z",
+  "sessionID": "ses_3d9f6fd1cffeTUhUQyIxqASmuF",
+  "text": "",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 8192,
+    "outputTokens": 567,
+    "totalTokens": 8759
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_m1mdr9g5",
+      "toolName": "glob",
+      "input": {
+        "pattern": "/$"
+      }
+    }
+  ],
+  "toolResults": [
+    {
+      "type": "tool-result",
+      "toolCallId": "call_m1mdr9g5",
+      "toolName": "glob",
+      "input": {
+        "pattern": "/$"
+      },
+      "output": {
+        "title": "Users\\Aaron - Main\\Desktop",
+        "metadata": {
+          "count": 0,
+          "truncated": false
+        },
+        "output": "No files found"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-02-04T00:00:46.794Z",
+  "sessionID": "ses_3da1a73ceffesk5Ed72h43DJLg",
+  "text": "
+Let me check if there's an actual directory at that location:
+",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 17221,
+    "outputTokens": 34,
+    "totalTokens": 17255,
+    "reasoningTokens": 1,
+    "cachedInputTokens": 17211
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_b42de9334b904cf2960583c1",
+      "toolName": "glob",
+      "input": {
+        "pattern": "**/devMerge*"
+      }
+    }
+  ],
+  "toolResults": [
+    {
+      "type": "tool-result",
+      "toolCallId": "call_b42de9334b904cf2960583c1",
+      "toolName": "glob",
+      "input": {
+        "pattern": "**/devMerge*"
+      },
+      "output": {
+        "title": "",
+        "metadata": {
+          "count": 6,
+          "truncated": false
+        },
+        "output": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devMerge-clean\\.git\\refs\\heads\\devMerge
+C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devMerge\\.git\\refs\\remotes\\origin\\devMerge
+C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devMerge\\.git\\refs\\heads\\devMerge
+C:\\Users\\Aaron - Main\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\devMerge.lnk
+C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\main\\.git\\refs\\remotes\\origin\\devMerge
+C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\main\\.git\\refs\\heads\\devMerge"
+      }
+    }
+  ]
+}

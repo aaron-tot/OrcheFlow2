@@ -36,21 +36,27 @@ killPort(FRONTEND_PORT)
 killPort(BACKEND_PORT)
 
 console.log("\nStarting backend on port", BACKEND_PORT)
-const backend = spawn("bun", ["run", "dev", "serve", "--port", BACKEND_PORT.toString()], {
+const backend = spawn("bun", ["run", "dev"], {
   stdio: "inherit",
   shell: true,
-  cwd: path.join(process.cwd(), "packages/opencode"),
+  cwd: path.join(process.cwd(), "packages/backend"),
   env: {
     ...process.env,
+    PORT: BACKEND_PORT.toString(),
+    HOST: "127.0.0.1",
     OPENCODE_DIRECTORY: process.cwd(),
   },
 })
 
+let frontend = null
+let isShuttingDown = false
+
 setTimeout(() => {
   console.log("\nStarting frontend on port", FRONTEND_PORT)
-  const frontend = spawn("bun", ["run", "--cwd", "packages/app", "dev"], {
+  frontend = spawn("bun", ["run", "dev"], {
     stdio: "inherit",
     shell: true,
+    cwd: path.join(process.cwd(), "packages/solidJS"),
     env: {
       ...process.env,
       VITE_OPENCODE_SERVER_HOST: "localhost",
@@ -60,19 +66,48 @@ setTimeout(() => {
   })
 
   frontend.on("exit", (code) => {
-    console.log(`Frontend exited with code ${code}`)
-    backend.kill()
-    process.exit(code)
+    if (!isShuttingDown) {
+      console.log(`Frontend exited with code ${code}`)
+      gracefulShutdown(code)
+    }
   })
 }, 2000)
 
 backend.on("exit", (code) => {
-  console.log(`Backend exited with code ${code}`)
-  process.exit(code)
+  if (!isShuttingDown) {
+    console.log(`Backend exited with code ${code}`)
+    gracefulShutdown(code)
+  }
 })
 
+function gracefulShutdown(exitCode = 0) {
+  if (isShuttingDown) return
+  isShuttingDown = true
+  
+  console.log("\n🛑 Shutting down gracefully...")
+  
+  if (frontend) {
+    console.log("Stopping frontend...")
+    frontend.kill("SIGTERM")
+  }
+  
+  if (backend) {
+    console.log("Stopping backend...")
+    backend.kill("SIGTERM")
+  }
+  
+  setTimeout(() => {
+    console.log("✅ Shutdown complete")
+    process.exit(exitCode)
+  }, 1000)
+}
+
 process.on("SIGINT", () => {
-  console.log("\nShutting down...")
-  backend.kill()
-  process.exit(0)
+  console.log("\n\n⚠️  Received Ctrl+C")
+  gracefulShutdown(0)
+})
+
+process.on("SIGTERM", () => {
+  console.log("\n\n⚠️  Received SIGTERM")
+  gracefulShutdown(0)
 })

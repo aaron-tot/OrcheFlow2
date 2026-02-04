@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-02-03T23:51:20.335Z",
+  "sessionID": "ses_3da1a73ceffesk5Ed72h43DJLg",
+  "text": "
+",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 13361,
+    "outputTokens": 28,
+    "totalTokens": 13389,
+    "reasoningTokens": 1,
+    "cachedInputTokens": 10247
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_2c4bde41899f4904b412f429",
+      "toolName": "bash",
+      "input": {
+        "command": "ls",
+        "description": "List current directory contents"
+      }
+    }
+  ],
+  "toolResults": []
+}

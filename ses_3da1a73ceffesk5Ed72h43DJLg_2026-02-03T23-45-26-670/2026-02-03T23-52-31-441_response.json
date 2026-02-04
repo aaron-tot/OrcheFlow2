@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-02-03T23:52:31.441Z",
+  "sessionID": "ses_3da1a73ceffesk5Ed72h43DJLg",
+  "text": "
+",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 16735,
+    "outputTokens": 32,
+    "totalTokens": 16767,
+    "reasoningTokens": 1,
+    "cachedInputTokens": 16725
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_d5ea447175a14df8a9335712",
+      "toolName": "glob",
+      "input": {
+        "pattern": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\*"
+      }
+    }
+  ],
+  "toolResults": [
+    {
+      "type": "tool-result",
+      "toolCallId": "call_d5ea447175a14df8a9335712",
+      "toolName": "glob",
+      "input": {
+        "pattern": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\*"
+      },
+      "output": {
+        "title": "",
+        "metadata": {
+          "count": 0,
+          "truncated": false
+        },
+        "output": "No files found"
+      }
+    }
+  ]
+}

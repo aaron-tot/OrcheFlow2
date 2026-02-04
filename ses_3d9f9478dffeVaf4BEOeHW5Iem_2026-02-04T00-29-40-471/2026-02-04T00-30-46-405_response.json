@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-02-04T00:30:46.405Z",
+  "sessionID": "ses_3d9f9478dffeVaf4BEOeHW5Iem",
+  "text": "
+",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 17728,
+    "outputTokens": 32,
+    "totalTokens": 17760,
+    "reasoningTokens": 1,
+    "cachedInputTokens": 17661
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_1259e24c479a4977aed3c8fa",
+      "toolName": "bash",
+      "input": {
+        "command": "echo %cd%",
+        "description": "Show current directory on Windows"
+      }
+    }
+  ],
+  "toolResults": []
+}

@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-02-03T22:53:48.393Z",
+  "sessionID": "ses_3da4b2508ffeZSOicRCofSLB3h",
+  "text": "",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 8192,
+    "outputTokens": 129,
+    "totalTokens": 8321
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_7q64yscm",
+      "toolName": "retitle",
+      "input": {
+        "title": "Refine Session Title"
+      }
+    }
+  ],
+  "toolResults": [
+    {
+      "type": "tool-result",
+      "toolCallId": "call_7q64yscm",
+      "toolName": "retitle",
+      "input": {
+        "title": "Refine Session Title"
+      },
+      "output": {
+        "title": "Session retitled",
+        "output": "Updated session title from \"Refine Session Title\" to \"Refine Session Title\"",
+        "metadata": {
+          "oldTitle": "Refine Session Title",
+          "newTitle": "Refine Session Title",
+          "truncated": false
+        }
+      }
+    }
+  ]
+}

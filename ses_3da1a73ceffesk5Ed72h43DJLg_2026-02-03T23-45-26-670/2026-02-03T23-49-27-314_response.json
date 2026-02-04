@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-02-03T23:49:27.314Z",
+  "sessionID": "ses_3da1a73ceffesk5Ed72h43DJLg",
+  "text": "
+",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 13849,
+    "outputTokens": 54,
+    "totalTokens": 13903,
+    "reasoningTokens": 1,
+    "cachedInputTokens": 13782
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_debcf5a1148f43b79a06b456",
+      "toolName": "bash",
+      "input": {
+        "command": "dir \"C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devmain\"",
+        "description": "List directory contents using Windows dir command"
+      }
+    }
+  ],
+  "toolResults": []
+}

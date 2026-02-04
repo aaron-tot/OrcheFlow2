@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-02-03T22:52:16.789Z",
+  "sessionID": "ses_3da4b2508ffeZSOicRCofSLB3h",
+  "text": "Path and branch visibility inquiry for OpenCode workspace",
+  "finishReason": "stop",
+  "usage": {
+    "inputTokens": 562,
+    "outputTokens": 15,
+    "totalTokens": 577,
+    "reasoningTokens": 0,
+    "cachedInputTokens": 0
+  },
+  "toolCalls": [],
+  "toolResults": []
+}

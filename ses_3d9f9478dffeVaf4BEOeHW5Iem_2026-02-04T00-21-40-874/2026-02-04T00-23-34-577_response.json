@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-02-04T00:23:34.577Z",
+  "sessionID": "ses_3d9f9478dffeVaf4BEOeHW5Iem",
+  "text": "
+",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 17434,
+    "outputTokens": 55,
+    "totalTokens": 17489,
+    "reasoningTokens": 1,
+    "cachedInputTokens": 17367
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_dc0249bda762481da2a0ba77",
+      "toolName": "bash",
+      "input": {
+        "command": "cd \"C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devMerge\" && dir",
+        "description": "Change to directory and list contents"
+      }
+    }
+  ],
+  "toolResults": []
+}

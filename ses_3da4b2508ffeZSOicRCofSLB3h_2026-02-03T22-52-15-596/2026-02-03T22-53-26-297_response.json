@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-02-03T22:53:26.297Z",
+  "sessionID": "ses_3da4b2508ffeZSOicRCofSLB3h",
+  "text": "",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 8192,
+    "outputTokens": 407,
+    "totalTokens": 8599
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_vlogtz0j",
+      "toolName": "retitle",
+      "input": {
+        "title": "Refine session title"
+      }
+    }
+  ],
+  "toolResults": [
+    {
+      "type": "tool-result",
+      "toolCallId": "call_vlogtz0j",
+      "toolName": "retitle",
+      "input": {
+        "title": "Refine session title"
+      },
+      "output": {
+        "title": "Session retitled",
+        "output": "Updated session title from \"Path and branch visibility inquiry for OpenCode workspace\" to \"Refine session title\"",
+        "metadata": {
+          "oldTitle": "Path and branch visibility inquiry for OpenCode workspace",
+          "newTitle": "Refine session title",
+          "truncated": false
+        }
+      }
+    }
+  ]
+}

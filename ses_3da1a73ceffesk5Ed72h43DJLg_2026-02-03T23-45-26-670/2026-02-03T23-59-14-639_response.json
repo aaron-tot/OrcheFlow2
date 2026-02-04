@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-02-03T23:59:14.635Z",
+  "sessionID": "ses_3da1a73ceffesk5Ed72h43DJLg",
+  "text": "
+",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 17165,
+    "outputTokens": 47,
+    "totalTokens": 17212,
+    "reasoningTokens": 1,
+    "cachedInputTokens": 17091
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_f683ba9c208041c78758dec1",
+      "toolName": "glob",
+      "input": {
+        "pattern": "C:\\USERS\\AARON - MAIN\\DESKTOP\\_OPencode_MainWorkSpace\\V4\\BRANCHES\\DEVMERGE\\*"
+      }
+    }
+  ],
+  "toolResults": [
+    {
+      "type": "tool-result",
+      "toolCallId": "call_f683ba9c208041c78758dec1",
+      "toolName": "glob",
+      "input": {
+        "pattern": "C:\\USERS\\AARON - MAIN\\DESKTOP\\_OPencode_MainWorkSpace\\V4\\BRANCHES\\DEVMERGE\\*"
+      },
+      "output": {
+        "title": "",
+        "metadata": {
+          "count": 0,
+          "truncated": false
+        },
+        "output": "No files found"
+      }
+    }
+  ]
+}

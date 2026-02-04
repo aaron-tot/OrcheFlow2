@@ -1,0 +1,149 @@
+{
+  "timestamp": "2026-02-04T00:25:11.445Z",
+  "sessionID": "ses_3d9f6fd1cffeTUhUQyIxqASmuF",
+  "text": "",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 8005,
+    "outputTokens": 1247,
+    "totalTokens": 9252
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_p86yzn91",
+      "toolName": "glob",
+      "input": {
+        "pattern": "**"
+      }
+    }
+  ],
+  "toolResults": [
+    {
+      "type": "tool-result",
+      "toolCallId": "call_p86yzn91",
+      "toolName": "glob",
+      "input": {
+        "pattern": "**"
+      },
+      "output": {
+        "title": "Users\\Aaron - Main\\Desktop",
+        "metadata": {
+          "count": 100,
+          "truncated": true
+        },
+        "output": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v5\\branches\\start-official.bat
+C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\verify-providers.js
+C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\write_tool_expanded.png
+C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v5\\doNow.md
+C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v5\\STRUCTURE_ANALYSIS.md
+C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v5\\PROJECT2_FEATURES_TO_ADD.md
+C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\VSCode Clone.exe
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\LSTMConfig.json
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\LLMConfig.json
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\__pycache__\\run_logger.cpython-310.pyc
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\__pycache__\\config_help.cpython-310.pyc
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\__pycache__\\email_alerts.cpython-310.pyc
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\__pycache__\\evo_utils.cpython-310.pyc
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\__pycache__\\config_validator.cpython-310.pyc
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\__pycache__\\colors.cpython-310.pyc
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\__pycache__\\torch_compat.cpython-310.pyc
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\__pycache__\\config.cpython-310.pyc
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\__pycache__\\__init__.cpython-310.pyc
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\evolution\\mutation.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\evolution\\breeding.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\config.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\profile_stats.prof
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\test_fix_quick.py
+C:\\Users\\Aaron - Main\\Desktop\\fast and works 65 percent\\__v3\\test_fix_quick.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\evolution\\hmm_mutation.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\evolution\\hmm_breeding.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\test_output.log
+C:\\Users\\Aaron - Main\\Desktop\\fast and works 65 percent\\__v3\\test_output.log
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\lstm.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\CIRCULAR_IMPORT_FIX.md
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\test_real_hmm_only.py
+C:\\Users\\Aaron - Main\\Desktop\\fast and works 65 percent\\__v3\\test_real_hmm_only.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\test_fake_quick.py
+C:\\Users\\Aaron - Main\\Desktop\\fast and works 65 percent\\__v3\\test_fake_quick.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\test_real_training.py
+C:\\Users\\Aaron - Main\\Desktop\\fast and works 65 percent\\__v3\\test_real_training.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\tests\\test_generation_weight_persistence.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\tests\\test_evo_lstm_critical.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\tests\\test_hmm_bug_fixes.py
+C:\\Users\\Aaron - Main\\Desktop\\fast and works 65 percent\\__v3\\tests\\test_hmm_bug_fixes.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\tests\\test_fixes.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\__init__.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\DYNAMAX_IMPLEMENTATION.md
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\requirements.txt
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\quick_start.sh
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\SPEEDUP_VERIFICATION.md
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\CHANGES_SUMMARY.md
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\GPU_IMPLEMENTATION_COMPLETE.md
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\benchmark_hmm.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\GPU_ACCELERATION.md
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\profile.json
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\temp_req.txt
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\tests\\.pytest_cache\\v\\cache\
+odeids
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\tests\\test_email_alerts.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\email_alerts.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\tests\\.pytest_cache\\CACHEDIR.TAG
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\tests\\.pytest_cache\\.gitignore
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\tests\\.pytest_cache\\README.md
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\tests\\__init__.py
+C:\\Users\\Aaron - Main\\Desktop\\fast and works 65 percent\\__v3\\tests\\__init__.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\tests\\test_best_brains_csv.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\tests\\test_file_outputs.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\evo_utils.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\dataProcessed\\v2\\UsedConfig.json
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\dataProcessed\\v2\\testingDataStandardized.json
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\dataProcessed\\v2\\testingData.json
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\dataProcessed\\v2\\trainingDataStandardized.json
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\dataProcessed\\v2\\trainingData.json
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\dataProcessed\\v2\\fullDataStandardized.json
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\dataProcessed\\v2\\fullData.json
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\data\\bitcoin.csv
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\run_training.sh
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\.stfolder\\syncthing-folder-c6caf4.txt
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\tests\\test_selection_and_performance.py
+C:\\Users\\Aaron - Main\\Desktop\\fast and works 65 percent\\__v3\\tests\\test_selection_and_performance.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\config_validator.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\tests\\test_new_params.py
+C:\\Users\\Aaron - Main\\Desktop\\fast and works 65 percent\\__v3\\tests\\test_new_params.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\config_help.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\CSV_TRACKING_DETAILS.md
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\run_all_tests.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\tests\\test_diversity_targeting.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\.ipynb_checkpoints\\lstm-checkpoint.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\tests\\test_file_outputs_new.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\llm.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\config_template.yaml
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\__main__.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\data\\ripple.csv
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\config_generator.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\view_runs.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\backfill.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\evolution\\species.py
+C:\\Users\\Aaron - Main\\Desktop\\__v3\\evo_lstm\\colors.py
+C:\\Users\\Aaron - Main\\Desktop\\NEAAT ML\\train.js
+C:\\Users\\Aaron - Main\\Desktop\\NEAAT ML\\package-lock.json
+C:\\Users\\Aaron - Main\\Desktop\\NEAAT ML\\package.json
+C:\\Users\\Aaron - Main\\Desktop\\NEAAT ML\
+ode_modules\
+eat_net-js\\test\\NEAT.test.js
+C:\\Users\\Aaron - Main\\Desktop\\NEAAT ML\
+ode_modules\
+eat_net-js\\README.md
+C:\\Users\\Aaron - Main\\Desktop\\NEAAT ML\
+ode_modules\
+eat_net-js\\LICENSE.md
+C:\\Users\\Aaron - Main\\Desktop\\NEAAT ML\
+ode_modules\
+eat_net-js\\package.json
+
+(Results are truncated. Consider using a more specific path or pattern.)"
+      }
+    }
+  ]
+}

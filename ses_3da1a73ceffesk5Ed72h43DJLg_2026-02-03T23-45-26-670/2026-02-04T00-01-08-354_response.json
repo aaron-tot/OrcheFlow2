@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-02-04T00:01:08.354Z",
+  "sessionID": "ses_3da1a73ceffesk5Ed72h43DJLg",
+  "text": "
+Found it! The directory is `devMerge` not `devmain`. Let me explore:
+",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 17443,
+    "outputTokens": 58,
+    "totalTokens": 17501,
+    "reasoningTokens": 1,
+    "cachedInputTokens": 8806
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_0b92153a5a814419afce6250",
+      "toolName": "glob",
+      "input": {
+        "pattern": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devMerge\\*"
+      }
+    }
+  ],
+  "toolResults": [
+    {
+      "type": "tool-result",
+      "toolCallId": "call_0b92153a5a814419afce6250",
+      "toolName": "glob",
+      "input": {
+        "pattern": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devMerge\\*"
+      },
+      "output": {
+        "title": "",
+        "metadata": {
+          "count": 0,
+          "truncated": false
+        },
+        "output": "No files found"
+      }
+    }
+  ]
+}

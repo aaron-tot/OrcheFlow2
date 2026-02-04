@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-02-03T23:52:57.111Z",
+  "sessionID": "ses_3da1a73ceffesk5Ed72h43DJLg",
+  "text": "
+Let me check the actual directory structure:
+",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 16776,
+    "outputTokens": 39,
+    "totalTokens": 16815,
+    "reasoningTokens": 1,
+    "cachedInputTokens": 16766
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_891cc863d0914187bf22c880",
+      "toolName": "glob",
+      "input": {
+        "pattern": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace*"
+      }
+    }
+  ],
+  "toolResults": [
+    {
+      "type": "tool-result",
+      "toolCallId": "call_891cc863d0914187bf22c880",
+      "toolName": "glob",
+      "input": {
+        "pattern": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace*"
+      },
+      "output": {
+        "title": "",
+        "metadata": {
+          "count": 0,
+          "truncated": false
+        },
+        "output": "No files found"
+      }
+    }
+  ]
+}

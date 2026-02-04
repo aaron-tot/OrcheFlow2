@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-02-03T23:45:57.400Z",
+  "sessionID": "ses_3da1a73ceffesk5Ed72h43DJLg",
+  "text": "",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 7963,
+    "outputTokens": 260,
+    "totalTokens": 8223
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_f7wdnh67",
+      "toolName": "task",
+      "input": {
+        "prompt": "Hello",
+        "subagent_type": "general",
+        "description": "Respond to greeting"
+      }
+    }
+  ],
+  "toolResults": [
+    {
+      "type": "tool-result",
+      "toolCallId": "call_f7wdnh67",
+      "toolName": "task",
+      "input": {
+        "prompt": "Hello",
+        "subagent_type": "general",
+        "description": "Respond to greeting"
+      },
+      "output": {
+        "title": "Respond to greeting",
+        "metadata": {
+          "summary": [],
+          "sessionId": "ses_3da1a1fd5ffevSHrJyHirjb30z",
+          "truncated": false
+        },
+        "output": "Hello! I'm Opencode, your AI coding assistant. How can I help you today? Whether you need code fixes, feature implementations, or guidance on complex problems, I'm here to assist. Just let me know what you need!
+
+<task_metadata>
+session_id: ses_3da1a1fd5ffevSHrJyHirjb30z
+</task_metadata>"
+      }
+    }
+  ]
+}

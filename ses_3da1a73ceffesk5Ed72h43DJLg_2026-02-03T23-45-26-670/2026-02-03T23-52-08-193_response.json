@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-02-03T23:52:08.193Z",
+  "sessionID": "ses_3da1a73ceffesk5Ed72h43DJLg",
+  "text": "
+Great! I found the OpenCode workspace. Let me look at the directories you mentioned:
+",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 16669,
+    "outputTokens": 57,
+    "totalTokens": 16726,
+    "reasoningTokens": 1,
+    "cachedInputTokens": 15931
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_051b403732864278aa556524",
+      "toolName": "glob",
+      "input": {
+        "pattern": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devmain\\*"
+      }
+    }
+  ],
+  "toolResults": [
+    {
+      "type": "tool-result",
+      "toolCallId": "call_051b403732864278aa556524",
+      "toolName": "glob",
+      "input": {
+        "pattern": "C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\v4\\branches\\devmain\\*"
+      },
+      "output": {
+        "title": "",
+        "metadata": {
+          "count": 0,
+          "truncated": false
+        },
+        "output": "No files found"
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-02-03T23:51:48.221Z",
+  "sessionID": "ses_3da1a73ceffesk5Ed72h43DJLg",
+  "text": "
+Let me try to find those specific directories:
+",
+  "finishReason": "tool-calls",
+  "usage": {
+    "inputTokens": 15902,
+    "outputTokens": 30,
+    "totalTokens": 15932,
+    "reasoningTokens": 1,
+    "cachedInputTokens": 13471
+  },
+  "toolCalls": [
+    {
+      "type": "tool-call",
+      "toolCallId": "call_88ab0fba7d0d41ea91f7c97a",
+      "toolName": "glob",
+      "input": {
+        "pattern": "**/*OpenCode*"
+      }
+    }
+  ],
+  "toolResults": [
+    {
+      "type": "tool-result",
+      "toolCallId": "call_88ab0fba7d0d41ea91f7c97a",
+      "toolName": "glob",
+      "input": {
+        "pattern": "**/*OpenCode*"
+      },
+      "output": {
+        "title": "",
+        "metadata": {
+          "count": 21,
+          "truncated": false
+        },
+        "output": "C:\\Users\\Aaron - Main\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\_OpenCode_MainWorkSpace (2).lnk
+C:\\Users\\Aaron - Main\\AppData\\Local\\Lenovo\\LegionSpace\\icon\\OpenCode.png
+C:\\Users\\Aaron - Main\\Desktop\\Old 2-2-26\\OpenCode_v4_Continuation_Guide.md - Shortcut.lnk
+C:\\Users\\Aaron - Main\\Desktop\\Old 2-2-26\\_OpenCode_MainWorkSpace - Shortcut.lnk
+C:\\Users\\Aaron - Main\\AppData\\Local\\Temp\\v8-compile-cache\\11.3.244.8-node.33\\CzCzBUserszBAaron - MainzBDesktopzB_OpenCode_MainWorkSpacezBv4zBbrancheszBdevMergezBbackendzBsrc.MAP
+C:\\Users\\Aaron - Main\\AppData\\Local\\Temp\\v8-compile-cache\\11.3.244.8-node.33\\CzCzBUserszBAaron - MainzBDesktopzB_OpenCode_MainWorkSpacezBv4zBbrancheszBdevMergezBbackendzBsrc.BLOB
+C:\\Users\\Aaron - Main\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\OpenCode_v4_Continuation_Guide.md.lnk
+C:\\Users\\Aaron - Main\\Desktop\\_OpenCode_MainWorkSpace\\CUsersAaron~1Desktop_OpenCode_MainWorkSpacev4branchesdevMergetest-edit.txt
+C:\\Users\\Aaron - Main\\Desktop\\Old 2-2-26\\OpenCode_v4_Continuation_Guide.md
+C:\\Users\\Aaron - Main\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\_OpenCode_MainWorkSpace.lnk
+C:\\Users\\Aaron - Main\\Desktop\\Old 2-2-26\\OpenCode.lnk
+C:\\Users\\Aaron - Main\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\OpenCode.lnk
+C:\\Users\\Aaron - Main\\AppData\\Roaming\\Microsoft\\Internet Explorer\\Quick Launch\\User Pinned\\TaskBar\\OpenCode.lnk
+C:\\Users\\Aaron - Main\\AppData\\Local\\OpenCode\\OpenCode.exe
+C:\\Users\\Aaron - Main\\Desktop\\Old 2-2-26\\OpenCode.exe - Shortcut.lnk
+C:\\Users\\Aaron - Main\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Web Applications\\_crx_jljphjgdgnpflicbdbpcofdmjkbelffl\\OpenCode CUSTOM PROD.lnk
+C:\\Users\\Aaron - Main\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Brave Apps\\OpenCode CUSTOM PROD.lnk
+C:\\Users\\Aaron - Main\\Desktop\\Old 2-2-26\\OpenCode CUSTOM PROD.lnk
+C:\\Users\\Aaron - Main\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Web Applications\\_crx_jljphjgdgnpflicbdbpcofdmjkbelffl\\OpenCode CUSTOM PROD.ico.md5
+C:\\Users\\Aaron - Main\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Web Applications\\_crx_jljphjgdgnpflicbdbpcofdmjkbelffl\\OpenCode CUSTOM PROD.ico
+C:\\Users\\Aaron - Main\\Downloads\\OpenCode Desktop Installer.exe"
+      }
+    }
+  ]
+}
